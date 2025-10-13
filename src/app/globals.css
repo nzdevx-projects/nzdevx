@@ -1,0 +1,282 @@
+/* src/app/globals.css */
+
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ──────────────────────────────────────────────── Custom Breakpoints. */
+@theme {
+  --breakpoint-xs: 20.1rem; /*──────────── 320px */
+  --breakpoint-sm: 35.94rem; /*─────────── 575px */
+  --breakpoint-md: 48rem; /*────────────── 768px */
+  --breakpoint-lg: 60rem; /*────────────── 960px */
+  --breakpoint-xl: 64rem; /*────────────── 1024px */
+  --breakpoint-2xl: 71.25rem; /*────────── 1140px */
+  --breakpoint-3xl: 80rem; /*───────────── 1280px */
+  --breakpoint-4xl: 90rem; /*───────────── 1440px */
+  --breakpoint-5xl: 100rem; /*──────────── 1600px */
+  --breakpoint-6xl: 118.75rem; /*───────── 1900px */
+}
+
+/* ──────────────────────────────────────────────── Reset & Base Styles. */
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  a,
+  em,
+  svg,
+  input,
+  label,
+  button,
+  textarea {
+    @apply block;
+  }
+
+  i,
+  em {
+    @apply not-italic;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  button {
+    @apply text-inherit cursor-pointer 
+    transition-all duration-250 ease-in;
+  }
+
+  input,
+  textarea {
+    @apply border-none outline-none bg-transparent 
+    focus:outline-none transition-all duration-250 ease-in;
+  }
+
+  p,
+  .font-roboto {
+    @apply font-normal leading-[1.6];
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-nunito {
+    @apply font-extrabold;
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+/* ──────────────────────────────────────────────── Reusable CSS Classes. */
+.container {
+  @apply px-[5%] 4xl:px-[2%] 6xl:px-0 mx-auto w-full max-w-full 4xl:max-w-[1280px] 6xl:max-w-[1536px];
+}
+
+@layer components {
+  /* ──────────────────────── Flex Classes. */
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  /* ──────────────────────── Transition Classes. */
+  .transition-300 {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .transition-400 {
+    @apply transition-all duration-400 ease-in-out;
+  }
+  .transition-500 {
+    @apply transition-all duration-500 ease-in-out;
+  }
+  .transition-750 {
+    @apply transition-all duration-750 ease-in-out;
+  }
+
+  /* ──────────────────────── Button Classes. */
+  .btn-primary,
+  .btn-secondary {
+    @apply px-4.5 3xl:px-5 6xl:px-6 py-3.5 3xl:py-4 6xl:py-4.5 text-sm 3xl:text-[15px] 6xl:text-base
+    font-bold rounded-lg transition-all duration-300 ease-in hover:-translate-y-0.5 hover:scale-105;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .btn-primary.touch {
+    @apply scale-105 -translate-y-[0.5] bg-left;
+  }
+  .btn-primary {
+    @apply text-white bg-[length:200%_100%] bg-right hover:bg-left;
+  }
+
+  .btn-secondary.touch {
+    @apply scale-105 -translate-y-[0.5] text-white bg-gradient-to-r 
+    from-cyan-600 to-teal-500 dark:from-cyan-500 dark:to-teal-400;
+  }
+  .btn-secondary {
+    @apply bg-gray-200 dark:bg-slate-700 dark:text-white hover:text-white
+    hover:bg-gradient-to-r from-cyan-600 to-teal-500 dark:from-cyan-500 dark:to-teal-400;
+  }
+
+  /* ──────────────────────── Theme Color Classes. */
+  .bg-primary {
+    @apply bg-white dark:bg-slate-900;
+  }
+  .bg-secondary {
+    @apply bg-gray-100 dark:bg-slate-800;
+  }
+  .bg-tertiary {
+    @apply bg-cyan-600 dark:bg-cyan-500;
+  }
+
+  .text-primary {
+    @apply text-cyan-700 dark:text-cyan-300;
+  }
+  .text-secondary {
+    @apply text-slate-700 dark:text-slate-300;
+  }
+  .text-tertiary {
+    @apply text-cyan-600 dark:text-cyan-400;
+  }
+
+  .border-primary {
+    @apply border border-gray-300 dark:border-slate-600;
+  }
+  .border-secondary {
+    @apply border border-cyan-500 dark:border-slate-500;
+  }
+
+  .shadow-primary {
+    @apply shadow-md shadow-black/10 dark:shadow-black/40;
+  }
+  .shadow-secondary {
+    @apply shadow-sm dark:shadow-gray-400/15 shadow-slate-700/20;
+  }
+
+  .bg-gradient,
+  .btn-primary,
+  .subtitle::after,
+  .nav-links::before,
+  .lg-subtitle::after {
+    @apply bg-gradient-to-r from-[#0077b6] via-[#00a8a8] via-51% to-[#0077b6] 
+    dark:bg-gradient-to-r dark:from-[#0ea5ea] dark:via-[#0bd1d1] dark:via-51% 
+    dark:to-[#0ea5ea] transition-all duration-300 ease-in-out;
+  }
+
+  .subtitle,
+  .lg-subtitle,
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyan-600 to-teal-600 
+    dark:from-cyan-500 dark:to-teal-400 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-1 {
+    @apply bg-gradient-to-r from-cyan-700 to-teal-500 
+    dark:from-sky-400  dark:to-teal-300 bg-clip-text text-transparent;
+  }
+
+  .bg-primary-card.touch {
+    @apply bg-gray-100 dark:bg-slate-800;
+  }
+  .bg-primary-card {
+    @apply bg-white dark:bg-slate-900 hover:bg-gray-100 hover:dark:bg-slate-800;
+  }
+
+  .bg-secondary-card.touch {
+    @apply bg-white dark:bg-slate-900;
+  }
+  .bg-secondary-card {
+    @apply bg-gray-100 dark:bg-slate-800 hover:bg-white hover:dark:bg-slate-900;
+  }
+
+  /* ──────────────────────── Input Field Classes. */
+  .input-field,
+  .custom-select {
+    @apply w-full shadow rounded-md 
+    bg-white dark:bg-slate-900 
+    placeholder-gray-400 dark:placeholder-gray-500
+    focus:ring-1 focus:ring-cyan-600 dark:focus:ring-cyan-400 
+    hover:ring-1 hover:ring-cyan-600 dark:hover:ring-cyan-400;
+  }
+
+  /* ──────────────────────── Swiper Slider Classes. */
+  .custom-pagination .swiper-pagination-bullet {
+    @apply !bg-cyan-600 dark:!bg-cyan-500 !size-2.5 md:!size-3;
+  }
+
+  .service-slider .swiper-scrollbar {
+    height: var(--swiper-scrollbar-size, 5px) !important;
+  }
+
+  .service-slider .swiper-scrollbar-drag {
+    @apply !bg-cyan-600 dark:!bg-cyan-400;
+  }
+
+  .service-slider .swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: var(--swiper-scrollbar-sides-offset, 5%) !important;
+    width: calc(100% - 5 * var(--swiper-scrollbar-sides-offset, 2%)) !important;
+  }
+
+  @media (min-width: 768px) {
+    .service-slider .swiper-scrollbar.swiper-scrollbar-horizontal {
+      left: var(--swiper-scrollbar-sides-offset, 2%) !important;
+      width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 2%)) !important;
+    }
+  }
+
+  /* ──────────────────────── Skeleton Field Classes. */
+  .skeleton-fields {
+    @apply bg-gray-200 dark:bg-slate-700 relative overflow-hidden;
+  }
+
+  .skeleton-fields::before {
+    @apply content-[''] absolute inset-0;
+    transform: translateX(-100%);
+    animation: shimmer 2s infinite ease-in-out;
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.8) 50%, transparent 100%);
+  }
+
+  .dark .skeleton-fields::before {
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+/* ──────────────────────────────────────────────── Mobile Touch Styles. */
+.nav-links.touch::before {
+  @apply w-full;
+}
+
+/* ──────────────────────── Project Card Touch Styles. */
+.project-card.touch .project-image {
+  @apply object-bottom;
+}
+
+/* ──────────────────────── Custom Title Text Touch Styles. */
+.custom-title-text-parent.touch .custom-title {
+  @apply max-h-[500px];
+}
+.custom-title-text-parent.touch .custom-text {
+  @apply max-h-[1500px];
+}
+.custom-title-text-parent.touch .title-info,
+.custom-title-text-parent.touch .text-info {
+  @apply line-clamp-none;
+}

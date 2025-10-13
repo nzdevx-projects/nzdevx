@@ -1,0 +1,361 @@
+/* src/app/utilities.css */
+
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ──────────────────────────────────────────────── Custom Breakpoints. */
+@theme {
+  --breakpoint-xs: 20.1rem; /*──────────── 320px */
+  --breakpoint-sm: 35.94rem; /*─────────── 575px */
+  --breakpoint-md: 48rem; /*────────────── 768px */
+  --breakpoint-lg: 60rem; /*────────────── 960px */
+  --breakpoint-xl: 64rem; /*────────────── 1024px */
+  --breakpoint-2xl: 71.25rem; /*────────── 1140px */
+  --breakpoint-3xl: 80rem; /*───────────── 1280px */
+  --breakpoint-4xl: 90rem; /*───────────── 1440px */
+  --breakpoint-5xl: 100rem; /*──────────── 1600px */
+  --breakpoint-6xl: 118.75rem; /*───────── 1900px */
+}
+
+/* ──────────────────────────────────────────────── Custom Animations. */
+.hero-image::before,
+.hero-image::after {
+  @apply content-[''] size-full absolute rounded-full;
+  animation: rotate-border 10s linear infinite;
+  background: conic-gradient(transparent, transparent, transparent, theme('colors.cyan.600'));
+}
+
+.hero-image::after {
+  animation-delay: -5s;
+  background: conic-gradient(transparent, transparent, transparent, theme('colors.teal.600'));
+}
+
+@keyframes rotate-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ──────────────────────── Card Border Animation. */
+.card-animation {
+  @apply relative p-[3px] rounded-2xl overflow-hidden flex 
+  items-center justify-center hover:-translate-y-0.5 
+  hover:scale-[1.015] transition-all duration-300 ease-in-out;
+}
+
+.about.card-animation {
+  @apply scale-100 translate-none;
+}
+
+.card-animation .content {
+  @apply size-full z-10 rounded-xl overflow-hidden flex flex-col 
+  items-center justify-center transition-all duration-300 ease-in-out 
+  border border-gray-300 dark:border-slate-600 hover:border-transparent;
+}
+
+.card-animation::before,
+.card-animation::after {
+  @apply content-[''] size-[200%] absolute transition-all duration-300 ease-in-out;
+  background: conic-gradient(transparent);
+  animation: rotate-border 14s linear infinite;
+}
+
+.about.card-animation::before,
+.about.card-animation::after {
+  @apply size-[900%];
+}
+
+.card-animation::after {
+  animation-delay: -7s;
+}
+
+@media (hover: hover) {
+  .card-animation:hover::after,
+  .card-animation:hover::before {
+    background: conic-gradient(transparent, transparent, transparent, theme('colors.cyan.700'));
+  }
+}
+
+@media (hover: none) {
+  .card-animation.touch::after,
+  .card-animation.touch::before {
+    background: conic-gradient(transparent, transparent, transparent, theme('colors.cyan.700'));
+  }
+}
+
+.card-animation .content.touch {
+  @apply border-transparent;
+}
+
+@keyframes rotate-border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ──────────────────────── Subtitle Line Animation. */
+.subtitle::after,
+.lg-subtitle::after {
+  @apply content-[''] absolute w-full h-[2.5px] left-0 -bottom-[2px] rounded-full 3xl:h-[3px];
+  animation: subtitle-animate 5s linear infinite;
+}
+.lg-subtitle::after {
+  animation: subtitle-animate 10s linear infinite;
+}
+
+@keyframes subtitle-animate {
+  0% {
+    width: 100%;
+    left: 0;
+  }
+  50% {
+    width: 0;
+    left: 100%;
+  }
+  50.1% {
+    width: 0;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+/* ──────────────────────── Mercury Driping Animation. */
+@keyframes mercury-drip {
+  0% {
+    transform: translateY(-20px) scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(30px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+/* ──────────────────────── Origami folding Animation. */
+@keyframes origami-fold {
+  0%,
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(90deg) rotateY(45deg);
+  }
+  50% {
+    transform: rotateX(180deg) rotateY(90deg);
+  }
+  75% {
+    transform: rotateX(270deg) rotateY(135deg);
+  }
+}
+
+/* ──────────────────────── Radar Circles Animation. */
+@keyframes sweepRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sweepFade {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes particleFloat {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.radar-sweep {
+  animation:
+    sweepRotate 4s linear infinite,
+    sweepFade 4s ease-in-out infinite;
+}
+
+.particle {
+  animation: particleFloat 6s ease-out infinite;
+}
+
+/* ──────────────────────── Site Preloader Animation. */
+@keyframes letterExit {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-60px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes underlineExit {
+  0% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+.animate-letter-exit {
+  animation: letterExit 0.6s ease-in-out forwards;
+}
+
+.animate-underline-exit {
+  animation: underlineExit 0.5s ease-in-out forwards;
+}
+
+/* ──────────────────────────────────────────────── Clerk Modal Customization. */
+.cl-internal-1dauvpw,
+.cl-internal-1k7jtru,
+.cl-internal-pe6vm4,
+.cl-internal-y44tp9,
+.cl-internal-fcx671,
+.cl-internal-rv8cb8 > :not(:first-of-type) {
+  display: none !important;
+}
+
+.cl-modalBackdrop {
+  @apply !bg-white dark:!bg-slate-900 sm:!flex sm:!items-center sm:!justify-center;
+}
+
+.cl-modalCloseButton {
+  @apply !shadow-none !border-none;
+}
+
+.cl-modalCloseButton svg {
+  @apply !size-3.5;
+}
+
+.cl-header {
+  @apply p-2 pb-8 border-b border-slate-200/80;
+}
+
+.cl-headerTitle {
+  @apply text-2xl font-extrabold bg-gradient-to-r from-cyan-700 to-teal-500;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: 'Nunito', sans-serif;
+  -webkit-text-fill-color: transparent;
+}
+
+.cl-headerSubtitle {
+  @apply font-medium;
+}
+
+.cl-formFieldLabel {
+  @apply text-cyan-700 font-medium;
+}
+
+.cl-formButtonPrimary {
+  @apply font-bold bg-gradient-to-r from-cyan-700 to-teal-500 
+  bg-[length:200%_100%] bg-right transition-all duration-300 ease-in-out 
+  !shadow-none hover:bg-left hover:-translate-y-0.5 hover:scale-102;
+}
+
+.cl-footer {
+  @apply px-6 py-3 text-sm text-slate-500;
+}
+
+.cl-footerAction {
+  @apply flex-wrap gap-3;
+}
+
+.cl-footerActionLink {
+  @apply text-cyan-700 font-semibold transition-all 
+  duration-300 ease-in-out hover:underline hover:text-slate-700;
+}
+
+/* ──────────────────────────────────────────────── Scrollbar Styles. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.cyan.600') transparent;
+}
+
+.dark * {
+  scrollbar-color: theme('colors.cyan.400') transparent;
+}
+
+/* ──────────────────────── Webkit Browsers (Chrome, Safari, Edge). */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-slate-800;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-cyan-600 to-teal-600 dark:from-cyan-500 dark:to-teal-400;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-cyan-700 to-teal-700 dark:from-cyan-400 dark:to-teal-300;
+  border: 1px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:active {
+  @apply bg-gradient-to-b from-cyan-800 to-teal-800 dark:from-cyan-300 dark:to-teal-200;
+}
+
+::-webkit-scrollbar-corner {
+  @apply bg-gray-100 dark:bg-slate-800;
+}
+
+/* ──────────────────────── Thin Scrollbar Variant. */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  border: 1px solid transparent;
+}

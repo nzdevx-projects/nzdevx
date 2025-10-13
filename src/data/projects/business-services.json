@@ -1,0 +1,25 @@
+{
+"category": "Business & Services",
+  "projects": [
+    {
+      "_id": "cdecde",
+      "title": "$$$$$$",
+      "image": "",
+      "shortDescription": "Modern dining with fresh seasonal ingredients daily",
+      "detailedDescription": "Urban Bites offers a contemporary dining experience featuring locally sourced, seasonal produce prepared by experienced chefs. Guests enjoy a vibrant atmosphere, excellent service, and a menu that evolves with the changing seasons to ensure the freshest possible dishes.",
+      "additionalDescription": "Our commitment to fresh ingredients and creative recipes makes every visit memorable. We strive to create a dining environment that blends comfort with sophistication for all guests.",
+      "keyFeatures": [
+        "Fresh locally sourced ingredients used in all dishes",
+        "Seasonal menus changing to match freshest produce available",
+        "Elegant interior design with comfortable seating arrangements",
+        "Fast and friendly table service for every guest",
+        "Mobile friendly online reservation and menu browsing",
+        "Live cooking events and interactive food workshops"
+      ],
+      "websiteUrl": "https://www.wikipedia.org",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Restaurant"
+    }
+  ]
+}

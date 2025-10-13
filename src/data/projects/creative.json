@@ -1,0 +1,66 @@
+{
+"category": "Creative",
+  "projects": [
+    {
+      "_id": "Troy-Carter",
+      "title": "Troy Carter",
+      "image": "Troy-Carter.png",
+      "shortDescription": "Elegant portfolio template for creative professionals",
+      "detailedDescription": "Present your skills and projects with this elegant portfolio template designed for designers, developers, and digital professionals. Built with a clean, professional layout that helps you display your work, expertise, and achievements effectively. The template includes sections for services offered, detailed about information with multiple tabs, project showcases, client testimonials, and contact information. Perfect for freelancers, agencies, or creative professionals looking to establish a strong online presence and attract potential clients.",
+      "additionalDescription": "The template provides multiple interactive sections: services overview, tabbed about section with skillset display, interview videos, awards and certificates, exhibition gallery, project portfolio with detailed cards, client testimonials, and a comprehensive contact section with integrated map. Includes smooth animations, custom cursor effects, element tilt interactions, and mobile-responsive navigation for an engaging user experience across all devices.",
+      "keyFeatures": [
+        "Interactive tabbed about section",
+        "Project showcase with detailed cards",
+        "Services and skills display",
+        "Client testimonials section",
+        "Contact form with map integration",
+        "Custom cursor and hover effects"
+      ],
+      "websiteUrl": "https://troy-carter.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Jack-Irwin",
+      "title": "Jack Irwin",
+      "image": "Jack-Irwin.png",
+      "shortDescription": "Professional portfolio highlighting creative development work",
+      "detailedDescription": "Display your professional journey and creative projects with this elegant personal portfolio template. Designed for developers, designers, and creative professionals, this portfolio presents your skills, experience, and completed work in a visually appealing format. Visitors can explore your background, view your technical abilities, browse through project showcases, and easily get in touch. The clean layout and intuitive navigation ensure potential clients and employers can quickly understand your expertise and accomplishments.",
+      "additionalDescription": "Includes a comprehensive about section highlighting your professional story, an interactive skills display with toggleable views for technical skills and tools, a project gallery showcasing completed work with visual previews, and a detailed contact section with multiple communication options. The template offers theme switching between light and dark modes, smooth scrolling navigation, responsive mobile menu, and social media integration for enhanced connectivity.",
+      "keyFeatures": [
+        "Light and dark theme toggle",
+        "Interactive skills and tools showcase",
+        "Project portfolio with visual gallery",
+        "Professional statistics display section",
+        "Comprehensive contact form and information",
+        "Smooth scrolling navigation system"
+      ],
+      "websiteUrl": "https://jack-irwin.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Annie-Sinclair",
+      "title": "Annie Sinclair",
+      "image": "Annie-Sinclair.png",
+      "shortDescription": "Creative  portfolio presenting professional skills and projects",
+      "detailedDescription": "Highlight your professional journey and creative work with this elegant portfolio template. Designed for freelancers, developers, and creative professionals, this template helps you present your skills, services, and completed projects in a visually appealing way. Visitors can explore your expertise, view your portfolio pieces, read client testimonials, and easily get in touch through a dedicated contact section.",
+      "additionalDescription": "Offers a welcoming home page with introduction and skills overview, dedicated services page highlighting what you offer, portfolio gallery displaying your latest projects, and comprehensive contact page with multiple ways to reach you. The clean, professional design ensures your work takes center stage while providing seamless navigation across all sections.",
+      "keyFeatures": [
+        "Multi-page layout with smooth navigation",
+        "Portfolio gallery with project showcases",
+        "Services section with detailed offerings",
+        "Client testimonials and reviews display",
+        "Contact form with location details",
+        "Responsive design for all devices"
+      ],
+      "websiteUrl": "https://annie-sinclair.vercel.app/",
+      "isFeatured": true,
+      "page": "Multi Pages",
+      "subcategory": "Personal"
+    }
+
+  ]
+}
