@@ -21,15 +21,15 @@ export default function MainPageUI() {
       'Business & Services': [
         'Business',
         'Services',
-        'Finance',
+        'Ecommerce',
         'Restaurant',
         'Travel & Tourism',
         'Beauty & Fashion',
-        'Healthcare & Wellness',
+        'Healthcare & Fitness',
         'Property Management',
       ],
       Creative: ['Photography', 'Videography', 'Music', 'Blog', 'Personal'],
-      Community: ['Nonprofit', 'Events', 'Education', 'Coaching'],
+      Community: ['Nonprofit', 'Events', 'Education'],
     }),
     []
   );
