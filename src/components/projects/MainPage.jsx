@@ -18,11 +18,10 @@ export default function MainPageUI() {
   // ─── Static category and subcategory options
   const categories = useMemo(
     () => ({
-      'Business & Services': [
-        'Business',
-        'Services',
-        'Ecommerce',
-        'Restaurant',
+      Business: [
+        'Business & Services',
+        'Ecommerce & Store',
+        'Restaurant & Food',
         'Travel & Tourism',
         'Beauty & Fashion',
         'Healthcare & Fitness',

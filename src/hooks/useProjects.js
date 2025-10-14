@@ -1,16 +1,16 @@
 import creative from '@/data/projects/creative.json';
 import community from '@/data/projects/community.json';
-import businessServices from '@/data/projects/business-services.json';
+import businessServices from '@/data/projects/business.json';
 
 // ─── Link category names to their JSON data files
 const CATEGORY_DATA = {
-  'Business & Services': businessServices,
+  Business: businessServices,
   Creative: creative,
   Community: community,
 };
 
 /* ──────────────────────────────────────────────── Get All Projects */
-// Collect all projects and assign categories from top-level data
+// Collect all projects, assign categories, and return shuffled
 export const getAllProjects = () => {
   const allProjects = [];
   Object.entries(CATEGORY_DATA).forEach(([categoryName, categoryData]) => {
@@ -23,11 +23,13 @@ export const getAllProjects = () => {
       allProjects.push(...projectsWithCategory);
     }
   });
-  return allProjects;
+
+  // Always return shuffled
+  return allProjects.sort(() => Math.random() - 0.5);
 };
 
 /* ──────────────────────────────────────────────── Get Projects by Category */
-// Return projects from a specific category (e.g., "Business & Services")
+// Return projects from a specific category (e.g., Business)
 export const getProjectsByCategory = (categoryName) => {
   const categoryData = CATEGORY_DATA[categoryName];
   if (!categoryData?.projects) return [];
@@ -51,7 +53,7 @@ export const getProjectById = (id) => {
 export const filterProjects = (projects, filters) => {
   let filteredProjects = [...projects];
 
-  // ─── Filter by search text (title, description, or technologies)
+  // ─── Filter by search text (title, description, or keywords)
   if (filters.search) {
     const searchRegex = new RegExp(filters.search, 'i');
     filteredProjects = filteredProjects.filter(
@@ -59,7 +61,7 @@ export const filterProjects = (projects, filters) => {
         searchRegex.test(project.title) ||
         searchRegex.test(project.shortDescription) ||
         searchRegex.test(project.detailedDescription) ||
-        project.technologies.some((tech) => searchRegex.test(tech))
+        (project.keywords && project.keywords.some((keyword) => searchRegex.test(keyword)))
     );
   }
 
@@ -81,16 +83,6 @@ export const filterProjects = (projects, filters) => {
   return filteredProjects;
 };
 
-/* ──────────────────────────────────────────────── Sort Projects */
-// Sort projects: shuffle if featured, otherwise sort by newest first
-export const sortProjects = (projects, isFeatured) => {
-  if (isFeatured === 'true') {
-    return projects.sort(() => Math.random() - 0.5);
-  } else {
-    return projects.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-  }
-};
-
 /* ──────────────────────────────────────────────── Paginate Projects */
 // Split projects into pages based on page number and items per page
 export const paginateProjects = (projects, page, limit) => {
@@ -100,16 +92,15 @@ export const paginateProjects = (projects, page, limit) => {
 };
 
 /* ──────────────────────────────────────────────── Get Featured Projects */
-// Return only featured projects, randomly shuffled with a limit
+// Return only featured projects with a limit (already shuffled from getAllProjects)
 export const getFeaturedProjects = (limit = 6) => {
-  const allProjects = getAllProjects();
+  const allProjects = getAllProjects(); // Already shuffled!
   const featuredProjects = allProjects.filter((project) => project.isFeatured);
-  const shuffled = featuredProjects.sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, limit);
+  return featuredProjects.slice(0, limit);
 };
 
 /* ──────────────────────────────────────────────── Get Projects with Filters */
-// Main function: combine filtering, sorting, and pagination together
+// Main function: combine filtering and pagination together
 export const getProjectsWithFilters = (filters = {}) => {
   const { page = 1, limit = 12, search = '', category = '', subcategory = '', isFeatured = '' } = filters;
 
@@ -118,7 +109,7 @@ export const getProjectsWithFilters = (filters = {}) => {
   if (category && category.toLowerCase() !== 'all' && CATEGORY_DATA[category]) {
     allProjects = getProjectsByCategory(category);
   } else {
-    allProjects = getAllProjects();
+    allProjects = getAllProjects(); // Already shuffled!
   }
 
   // ─── Step 2: Apply all filters
@@ -129,12 +120,9 @@ export const getProjectsWithFilters = (filters = {}) => {
     isFeatured,
   });
 
-  // ─── Step 3: Sort projects
-  const sortedProjects = sortProjects(filteredProjects, isFeatured);
-
-  // ─── Step 4: Handle featured projects (no pagination needed)
+  // ─── Step 3: Handle featured projects (no pagination needed)
   if (isFeatured === 'true') {
-    const limitedProjects = sortedProjects.slice(0, limit);
+    const limitedProjects = filteredProjects.slice(0, limit);
     return {
       projects: limitedProjects,
       pagination: {
@@ -147,10 +135,10 @@ export const getProjectsWithFilters = (filters = {}) => {
     };
   }
 
-  // ─── Step 5: Apply pagination for normal projects
-  const totalCount = sortedProjects.length;
+  // ─── Step 4: Apply pagination for normal projects
+  const totalCount = filteredProjects.length;
   const totalPages = Math.ceil(totalCount / limit);
-  const paginatedProjects = paginateProjects(sortedProjects, page, limit);
+  const paginatedProjects = paginateProjects(filteredProjects, page, limit);
 
   return {
     projects: paginatedProjects,

@@ -8,6 +8,7 @@
       "shortDescription": "Modern restaurant website with online reservation system",
       "detailedDescription": "Showcase your restaurant with this elegant and sophisticated website template designed for fine dining establishments. Present your culinary offerings through beautiful imagery, detailed menu displays, and an integrated online reservation system. The website creates an inviting atmosphere that reflects the quality and ambiance of your restaurant, making it easy for customers to explore your menu, learn about your story, and book their dining experience.",
       "additionalDescription": "Features multiple sections including an eye-catching hero slider, service offerings with breakfast, appetizers, and drinks categories, detailed menu presentation with pricing and descriptions, special dish highlights, customer testimonials, online reservation form, upcoming events showcase, and comprehensive contact information. The design emphasizes visual appeal with smooth animations and interactive elements that engage visitors.",
+      "keywords": [ "food", "restaurant", "order food", "food delivery", "table reservation", "book table", "takeaway", "dine in", "eat out", "food search", "fast food website" ],
       "keyFeatures": [
         "Auto-rotating hero image slider",
         "Interactive menu with detailed descriptions",
@@ -19,7 +20,7 @@
       "websiteUrl": "https://grilli-restaurant-virid.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Restaurant"
+      "subcategory": "Restaurant & Food"
     },
     {
       "_id": "Foodie",
@@ -28,6 +29,7 @@
       "shortDescription": "Fast food restaurant with online ordering capabilities",
       "detailedDescription": "Showcase your fast food restaurant with this vibrant and engaging website designed for burger joints, pizza parlors, and quick-service eateries. Present your menu items with appetizing visuals, highlight special offers and discounts, and make ordering convenient for your customers. The website creates an energetic and welcoming atmosphere that captures the excitement of fast food dining while making it easy for visitors to browse your offerings and place orders.",
       "additionalDescription": "Features comprehensive sections including promotional cards for signature items, detailed about section highlighting restaurant qualities, filterable food menu with pricing and ratings, special discount banners, customer testimonials with reviews, timely delivery information, blog posts about food and recipes, and a complete table booking system. The design emphasizes bold visuals, discount badges, and clear call-to-action buttons throughout.",
+      "keywords": [ "food", "restaurant", "order food", "food delivery", "table reservation", "book table", "takeaway", "dine in", "eat out", "food search", "fast food website" ],
       "keyFeatures": [
         "Filterable menu with category sorting",
         "Discount badges and promotional offers",
@@ -39,7 +41,7 @@
       "websiteUrl": "https://foodie-restaurant-tau.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Restaurant"
+      "subcategory": "Restaurant & Food"
     },
     {
       "_id": "Doclab",
@@ -48,6 +50,7 @@
       "shortDescription": "Modern medical directory and healthcare appointment platform",
       "detailedDescription": "Discover a comprehensive healthcare platform designed to connect patients with medical professionals across various specialties. This modern medical directory enables visitors to search for doctors, clinics, and hospitals by location, browse specialists across multiple medical fields, and schedule appointments with ease. The platform presents healthcare services in an organized, accessible format that simplifies the process of finding and connecting with the right medical care provider for your needs.",
       "additionalDescription": "Features an intuitive hero section with location-based search functionality, dedicated service cards for major medical specialties including psychiatry, gynecology, pulmonology, and orthopedics, a comprehensive specialist directory, informative blog section with health articles and medical news, detailed about section highlighting experience and expertise, and a complete contact system with newsletter subscription. The design emphasizes clean navigation, smooth scroll animations, and mobile-responsive layouts to ensure accessibility across all devices.",
+      "keywords": [ "doctor", "hospital", "clinic", "healthcare", "medical care", "find doctors", "specialist" ],
       "keyFeatures": [
         "Location-based doctor and clinic search",
         "Browse specialists by medical category",
@@ -59,7 +62,7 @@
       "websiteUrl": "https://doclab-healthcare.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Healthcare & Wellness"
+      "subcategory": "Healthcare & Fitness"
     },
     {
       "_id": "Dentelo",
@@ -68,6 +71,7 @@
       "shortDescription": "Professional dental clinic website with appointment booking",
       "detailedDescription": "Present your dental practice with a modern and welcoming online presence designed to attract and serve patients effectively. This comprehensive dental clinic platform showcases various dental services, introduces your expert team of dentists, and enables patients to easily book appointments through an integrated callback system. The website creates a professional yet approachable atmosphere that helps potential patients feel confident about choosing your dental care services, while providing all the essential information they need about treatments, schedules, and contact details.",
       "additionalDescription": "Includes an engaging hero section with email callback request form, detailed service showcase featuring root canal, teeth alignment, cosmetic dentistry, oral hygiene, live advisory, and cavity inspection, dedicated team section with scrollable dentist profiles and social media links, compelling call-to-action section encouraging appointment bookings, informative blog section for dental health tips and news, comprehensive footer with business hours, multiple contact methods, and organized navigation links. The design features clean layouts, intuitive navigation, and mobile-responsive elements ensuring accessibility for all visitors.",
+      "keywords": [ "doctor", "hospital", "clinic", "healthcare", "medical care", "find doctors", "specialist" ],
       "keyFeatures": [
         "Email callback request system",
         "Comprehensive dental services showcase",
@@ -79,7 +83,28 @@
       "websiteUrl": "https://dentelo-healthcare.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Healthcare & Wellness"
+      "subcategory": "Healthcare & Fitness"
+    },
+    {
+      "_id": "Fitlife",
+      "title": "Fitlife",
+      "image": "Fitlife.png",
+      "shortDescription": "Modern fitness gym website with class schedules",
+      "detailedDescription": "Present a professional fitness center with this comprehensive gym website template. Showcase fitness classes, training programs, and gym facilities with an engaging dark-themed design. Display class schedules with progress indicators, introduce coaching staff, and share fitness tips through a blog section. Perfect for gyms, fitness centers, personal trainers, and health clubs looking to establish a strong online presence and attract new members.",
+      "additionalDescription": "Features dedicated sections for gym introduction, video content exploration, diverse fitness class offerings with availability tracking, and latest news updates. The design emphasizes motivation and energy with dynamic visual elements, smooth navigation, and clear call-to-action buttons for membership sign-ups. Includes contact information, operating hours, newsletter subscription, and social media integration for community building.",
+      "keywords": [ "gym", "fitness", "workout programs", "exercise classes", "weight lifting", "yoga classes", "strength training", "wellness center" ],
+      "keyFeatures": [
+        "Dynamic hero section with imagery",
+        "Class schedule with availability tracker",
+        "Video content showcase section",
+        "Fitness blog with latest updates",
+        "Responsive mobile navigation menu",
+        "Coach and trainer profiles"
+      ],
+      "websiteUrl": "https://fitlife-gym-fitness.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Healthcare & Fitness"
     },
     {
       "_id": "Tourly",
@@ -88,6 +113,7 @@
       "shortDescription": "Modern travel agency website for vacation packages",
       "detailedDescription": "Discover your next adventure with this elegant travel agency website that showcases popular destinations and vacation packages. Visitors can explore featured travel locations including Italy, Dubai, and Japan, browse through curated holiday packages with detailed pricing and reviews, and easily search for their ideal destination. The platform presents travel options with beautiful imagery, customer ratings, and comprehensive package details to help travelers make informed decisions about their next getaway.",
       "additionalDescription": "The website features a hero section with inspiring travel messaging, an intuitive search form for destination inquiries, popular destination cards with star ratings, detailed package listings with duration and group size information, a photo gallery showcasing traveler experiences, and a call-to-action section encouraging visitor engagement. The responsive navigation and smooth scrolling enhance the browsing experience across all devices.",
+      "keywords": [ "travel agency", "vacation packages", "holiday booking", "tour booking", "holiday trips", "travel deals", "trip planning" ],
       "keyFeatures": [
         "Destination search with date selection",
         "Package cards with pricing and reviews",
@@ -108,6 +134,7 @@
       "shortDescription": "Trusted travel agency exploring destinations worldwide",
       "detailedDescription": "Embark on unforgettable journeys with this comprehensive travel agency platform that inspires wanderlust and simplifies trip planning. Visitors can explore exotic destinations across Asia including the Maldives, Thailand, Malaysia, Nepal, and Indonesia, browse featured tour packages with duration and pricing details, and read the latest travel articles and tips from experienced travelers. The website combines stunning visual presentation with practical information to help adventurers discover their next perfect getaway.",
       "additionalDescription": "The website includes an engaging hero section with inspirational travel messaging, a curated destinations gallery showcasing top locations, featured tour cards displaying prices and customer ratings, an informative about section highlighting tour guide services and competitive pricing, a travel blog with articles from contributors, newsletter subscription for deals and tips, and comprehensive footer navigation. The smooth scrolling and intuitive layout create an enjoyable browsing experience.",
+      "keywords": [ "travel agency", "vacation packages", "holiday booking", "tour booking", "holiday trips", "travel deals", "trip planning" ],
       "keyFeatures": [
         "Interactive destination gallery with locations",
         "Featured tours with pricing and ratings",
@@ -128,6 +155,7 @@
       "shortDescription": "Modern real estate platform for property transactions",
       "detailedDescription": "Discover your dream home with this comprehensive real estate platform designed to simplify property buying, selling, and renting. This property marketplace empowers users to browse featured properties, search by categories, and filter listings by price range. The platform eliminates traditional agent commissions, providing transparency and control directly to buyers and sellers while offering an intuitive interface for exploring available properties.",
       "additionalDescription": "Features a hero section with search functionality, property filtering options including categories and price ranges, featured property listings with detailed information, property ratings and specifications, an about section highlighting efficiency and transparency, service workflow explanation, newsletter subscription, and comprehensive contact information. The design emphasizes user-friendly navigation and visual property presentations.",
+      "keywords": [ "home buying", "house buying", "sell property", "real estate", "property search", "rent home", "apartment search" ],
       "keyFeatures": [
         "Advanced property search with filters",
         "Featured properties with ratings",
@@ -148,6 +176,7 @@
       "shortDescription": "Complete real estate solution for buying and renting",
       "detailedDescription": "Find your dream house with this comprehensive real estate platform designed to connect buyers, sellers, and renters. Browse through featured property listings with detailed information including bedrooms, bathrooms, and square footage. Each property card includes high-quality images, location details, pricing information, and agent contact details. The platform showcases over one million homes available for sale or rent, making it easy to discover properties that match your lifestyle and budget requirements.",
       "additionalDescription": "Includes sections for about the agency, service offerings for buying, renting, and selling homes, featured property listings with interactive cards, building amenities showcase featuring parking, swimming pool, security, medical center, library, smart home features, and more. Also features a news and blog section with real estate insights, interior design trends, and market updates. The design prioritizes user experience with smooth navigation, property favorites functionality, and comprehensive search capabilities.",
+      "keywords": [ "home buying", "house buying", "sell property", "real estate", "property search", "rent home", "apartment search" ],
       "keyFeatures": [
         "Featured property listings with details",
         "Property cards with agent information",
@@ -168,6 +197,7 @@
       "shortDescription": "Modern online shopping platform for fashion enthusiasts",
       "detailedDescription": "Discover a comprehensive shopping destination that brings together fashion, accessories, electronics, and lifestyle products in one convenient location. Browse through carefully curated collections including clothing, footwear, jewelry, watches, cosmetics, and more. Experience seamless product discovery with organized categories, featured deals, and trending items. The platform showcases new arrivals, best sellers, and top-rated products to help shoppers find exactly what they're looking for, whether it's the latest fashion trends or everyday essentials.",
       "additionalDescription": "Navigate through intuitive product categories with detailed showcases featuring ratings, pricing, and product images. Explore dedicated sections for new arrivals, trending items, and special deals of the day. The responsive design ensures smooth browsing across all devices, with features like newsletter subscription, promotional banners, customer testimonials, and comprehensive service information including worldwide delivery, return policies, and customer support details.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Multi-category product showcase with filters",
         "Featured deals and countdown timers",
@@ -179,7 +209,7 @@
       "websiteUrl": "https://anon-ecommerce-zeta.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Casmart",
@@ -188,6 +218,7 @@
       "shortDescription": "Modern fashion shopping center for everyday style",
       "detailedDescription": "Showcase your fashion products with this elegant e-commerce template designed for clothing and accessories stores. Present a complete wardrobe of fashion items including ethnic wear, casual clothing, footwear, jewelry, and contemporary accessories. The template features an attractive hero section with compelling taglines, organized product categories, and a clean layout that helps visitors easily browse and discover fashion items. Perfect for boutiques, fashion retailers, or online clothing stores looking to create an engaging shopping experience.",
       "additionalDescription": "The template includes dedicated sections for featured products of the week with filtering options, a fashion blog for latest trends and style tips, service highlights showcasing free shipping and secure payment guarantees, and a newsletter subscription section to build customer relationships. The responsive header features search functionality, shopping cart, and wishlist badges for enhanced user convenience. Product cards display sale badges, quick view options, and smooth hover interactions for an interactive shopping experience.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Product filtering and categorization",
         "Shopping cart and wishlist system",
@@ -199,7 +230,7 @@
       "websiteUrl": "https://casmart-ecommerce-bay.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Footcap",
@@ -208,6 +239,7 @@
       "shortDescription": "Premium footwear store for every style need",
       "detailedDescription": "Discover and showcase a comprehensive collection of footwear with this modern e-commerce template designed specifically for shoe retailers and footwear brands. Present an extensive range of products including sneakers, sports shoes, casual wear, and athletic footwear from popular brands. The template features an eye-catching hero section highlighting seasonal collections, organized category sections for men's, women's, and sports collections, and an intuitive product filtering system by brand. Perfect for shoe stores, athletic footwear retailers, or multi-brand footwear businesses looking to create a professional online shopping experience.",
       "additionalDescription": "The template includes dedicated sections for bestseller products with brand filtering options, promotional campaign banners showcasing seasonal sales and special offers, and a special products spotlight for featured collections. Additional features include service highlights emphasizing free shipping and secure payment, Instagram feed integration for social proof and community engagement, and a comprehensive footer with contact information, opening hours, and newsletter subscription. Product cards display new arrival badges, discount percentages, quick view functionality, and convenient action buttons for cart, wishlist, and compare features.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Brand-based product filtering system",
         "Multiple collection categories display",
@@ -219,7 +251,7 @@
       "websiteUrl": "https://footcap-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Glowing",
@@ -228,6 +260,7 @@
       "shortDescription": "Modern skincare and beauty ecommerce storefront",
       "detailedDescription": "Present your skincare and beauty products with an elegant ecommerce template designed for cosmetics brands and retailers. This template features a clean, modern layout that highlights product collections, bestsellers, and special offers. Visitors can browse through multiple product categories, view detailed product information with ratings and reviews, and discover seasonal collections. The design emphasizes visual appeal with high-quality imagery and smooth interactions, creating an inviting shopping experience that builds trust and encourages customers to explore your beauty product range.",
       "additionalDescription": "The template includes dedicated sections for hero banners with promotional content, product showcases organized by bestsellers and price ranges, featured collections with seasonal offerings, special promotional banners, brand value propositions highlighting product quality and ethical standards, limited-time offers with countdown timers, and discovery content linking to store locations and brand stories. The responsive design ensures seamless browsing across all devices, while the intuitive navigation and search functionality make product discovery effortless for customers.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Product showcase with ratings and reviews",
         "Multiple collection display sections",
@@ -239,7 +272,7 @@
       "websiteUrl": "https://glowing-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Woodex",
@@ -248,6 +281,7 @@
       "shortDescription": "Modern furniture and home decor ecommerce platform",
       "detailedDescription": "Showcase your furniture and home decor products with this elegant ecommerce template designed for wood furniture stores and interior design businesses. Browse through curated collections of chairs, tables, decorative items, and accessories organized by category. The platform features a clean, minimalist design that puts products front and center, making it easy for customers to discover quality furniture pieces. With intuitive navigation and filtering options, visitors can quickly find exactly what they need to furnish their homes with style and comfort.",
       "additionalDescription": "The template includes a hero section with featured products, comprehensive product catalog with category filtering, about section with video integration, blog section for home decor inspiration, and newsletter subscription functionality. Product cards display clear pricing, badges for sales and discounts, and quick action buttons for cart and wishlist. The responsive sidebar navigation provides easy access to language and currency options, plus detailed contact information for customer support.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Product filtering by category",
         "Featured product showcase grid",
@@ -259,7 +293,7 @@
       "websiteUrl": "https://woodex-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Kitter",
@@ -268,6 +302,7 @@
       "shortDescription": "Premium pet food and supplies online store",
       "detailedDescription": "Kitter is a modern e-commerce platform dedicated to providing high-quality pet food and accessories for cats and dogs. The website offers a seamless shopping experience where pet owners can browse through various product categories including cat food, dog food, toys, and supplements. Customers can discover bestselling items, explore seasonal promotions, and learn about special offers. The platform features detailed product listings with pricing, ratings, and customer reviews to help informed purchasing decisions.",
       "additionalDescription": "The website includes a hero banner section with promotional messaging, category browsing with scrollable product sections, featured bestsellers collection, service highlights including same-day delivery and returns, customer testimonials, and popular brand showcase. The design emphasizes user-friendly navigation with clear product cards, quick add-to-cart functionality, and comprehensive footer with customer support information, policies, and corporate links.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Browse pet food and supplies",
         "Product ratings and reviews",
@@ -279,7 +314,7 @@
       "websiteUrl": "https://kitter-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Shoppie",
@@ -288,6 +323,7 @@
       "shortDescription": "Modern men's fashion store online shopping",
       "detailedDescription": "Shoppie is a contemporary e-commerce platform specializing in men's summer fashion and accessories. The store showcases an curated collection of clothing items, footwear, and fashion accessories with a focus on quality and style. Customers can browse through new arrivals, explore featured products, and take advantage of seasonal sales and promotions. The platform provides an intuitive shopping experience with detailed product displays, pricing information, and easy cart management for a seamless purchasing journey.",
       "additionalDescription": "The website features a striking hero section highlighting the summer collection with promotional pricing, a scrollable new arrivals section, an extensive featured products gallery, and special discount offers. The design emphasizes visual appeal with product imagery, clean navigation through the header menu with portfolio and blog options, newsletter subscription capability, and comprehensive footer with contact information and social media links.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Browse men's fashion collection",
         "New arrivals and featured products",
@@ -299,7 +335,7 @@
       "websiteUrl": "https://shoppie-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     },
     {
       "_id": "Organica",
@@ -308,6 +344,7 @@
       "shortDescription": "Premium organic fruits and vegetables online shop",
       "detailedDescription": "Organica is a modern ecommerce platform dedicated to delivering high-quality organic produce directly to customers. The website showcases a curated selection of fresh vegetables, fruits, and organic products with an intuitive shopping experience. Visitors can browse through categorized products, view detailed product information with multiple images, manage their wishlist and shopping cart, and complete their purchases with confidence. The platform emphasizes quality, freshness, and the health benefits of organic produce while offering special seasonal promotions and discounts.",
       "additionalDescription": "The website features a comprehensive home page with hero promotions, service highlights including free shipping and 24/7 support, multiple product categories with filtering options, trending products section, customer testimonials, blog content, and newsletter subscription. The design includes a product details page for in-depth product exploration with image galleries, weight options, quantity selection, and detailed descriptions. Additional elements include trusted partner logos, special seasonal offers, and a complete footer with company information and contact details.",
+      "keywords": [ "shop", "store", "shopping", "online shopping", "online store", "ecommerce store", "shopping website", "free shipping", "shopping cart" ],
       "keyFeatures": [
         "Browse organic products by category",
         "Detailed product pages with galleries",
@@ -320,7 +357,7 @@
       "websiteUrl": "https://organica-ecommerce.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
-      "subcategory": "Ecommerce"
+      "subcategory": "Ecommerce & Store"
     }
   ]
 }
