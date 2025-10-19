@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { Mail, Check, Circle } from 'lucide-react';
+import { Mail, Check, Circle, Globe } from 'lucide-react';
 import { ProjectsSlider } from '@/components/projects/Featured.jsx';
 import LivePreviewTrigger from '@/components/projects/LivePreview.jsx';
 import { getProjectById, getAllProjects } from '@/hooks/useProjects.js';
@@ -89,8 +89,21 @@ const ProjectDetailPage = async ({ params }) => {
               <span className="hidden xs:inline">Contact Me</span>
             </Link>
 
-            {/* Only show Live Preview if websiteUrl exists */}
-            {project.websiteUrl && <LivePreviewTrigger url={project.websiteUrl} />}
+            <span className="md:hidden">
+              <a
+                href={project.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-center gap-2 btn-primary py-2.5 3xl:py-3 px-3 3xl:px-4"
+              >
+                <Globe strokeWidth={2.5} className="size-4.5 xs:hidden sm:inline" />
+                <span className="hidden xs:inline">Visit Site</span>
+              </a>
+            </span>
+
+            <span className="hidden md:inline-block">
+              <LivePreviewTrigger url={project.websiteUrl} />
+            </span>
           </div>
         </div>
 

@@ -145,7 +145,7 @@ export default function MainPageUI() {
             </div>
             <div>
               <h3 className="font-nunito font-bold text-secondary">Email</h3>
-              <p className="text-tertiary">your-email@example.com</p>
+              <p className="text-tertiary">contact@nzdevx.com</p>
             </div>
           </div>
 
@@ -155,7 +155,7 @@ export default function MainPageUI() {
             </div>
             <div>
               <h3 className="font-nunito font-bold text-secondary">Response Time</h3>
-              <p className="text-tertiary">Usually within 24 hours</p>
+              <p className="text-tertiary">Usually within 2-4 hours</p>
             </div>
           </div>
 
@@ -170,94 +170,110 @@ export default function MainPageUI() {
           </div>
         </div>
 
-        {/* Contact Form */}
-        <div className="bg-secondary p-4 lg:p-10 rounded-lg shadow-primary">
-          <form onSubmit={handleSubmit} className="space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
-            {/* Name Field */}
-            <div>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                className="input-field p-3"
-                placeholder="Enter Name..."
-                disabled={isSubmitting}
-              />
-              {errors.name && touched.name && <p className="text-red-500 text-sm mt-2 ml-1">{errors.name}</p>}
-            </div>
-
-            {/* Email Field */}
-            <div>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                className="input-field p-3"
-                placeholder="Email Address..."
-                disabled={isSubmitting}
-              />
-              {errors.email && touched.email && <p className="text-red-500 text-sm mt-2 ml-1">{errors.email}</p>}
-            </div>
-
-            {/* Phone Field */}
-            <div className="col-span-2">
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                className="input-field p-3"
-                placeholder="Phone Number (Optional)"
-                disabled={isSubmitting}
-              />
-              {errors.phone && touched.phone && <p className="text-red-500 text-sm mt-2 ml-1">{errors.phone}</p>}
-            </div>
-
-            {/* Message Field */}
-            <div className="col-span-2">
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                className="input-field p-3 min-h-[150px]"
-                placeholder="Your Message..."
-                disabled={isSubmitting}
-              />
-
-              <div className="flex justify-between items-center mt-2">
-                {errors.message && touched.message ? (
-                  <p className="text-red-500 text-sm mt-2 ml-1">{errors.message}</p>
-                ) : (
-                  <span></span>
-                )}
-
-                <span className="text-xs">{formData.message.length}/1000</span>
+        <div className="3xl:grid 3xl:grid-cols-2 3xl:gap-10 6xl:gap-16">
+          {/* Contact Form */}
+          <div className="bg-secondary p-4 lg:p-10 rounded-lg shadow-primary 3xl:order-2">
+            <form onSubmit={handleSubmit} className="space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
+              {/* Name Field */}
+              <div>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  className="input-field p-3"
+                  placeholder="Enter Name..."
+                  disabled={isSubmitting}
+                />
+                {errors.name && touched.name && <p className="text-red-500 text-sm mt-2 ml-1">{errors.name}</p>}
               </div>
-            </div>
 
-            {/* Submit Button */}
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className={`w-full btn-primary md:col-span-2 ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
-            >
-              {isSubmitting ? (
-                <span className="flex items-center justify-center gap-2">Sending Message...</span>
-              ) : (
-                <span className="flex items-center justify-center gap-2">Send Message</span>
-              )}
-            </button>
-          </form>
+              {/* Email Field */}
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  className="input-field p-3"
+                  placeholder="Email Address..."
+                  disabled={isSubmitting}
+                />
+                {errors.email && touched.email && <p className="text-red-500 text-sm mt-2 ml-1">{errors.email}</p>}
+              </div>
+
+              {/* Phone Field */}
+              <div className="col-span-2">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  className="input-field p-3"
+                  placeholder="Phone Number (Optional)"
+                  disabled={isSubmitting}
+                />
+                {errors.phone && touched.phone && <p className="text-red-500 text-sm mt-2 ml-1">{errors.phone}</p>}
+              </div>
+
+              {/* Message Field */}
+              <div className="col-span-2">
+                <textarea
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  className="input-field p-3 min-h-[150px]"
+                  placeholder="Your Message..."
+                  disabled={isSubmitting}
+                />
+
+                <div className="flex justify-between items-center mt-2">
+                  {errors.message && touched.message ? (
+                    <p className="text-red-500 text-sm mt-2 ml-1">{errors.message}</p>
+                  ) : (
+                    <span></span>
+                  )}
+
+                  <span className="text-xs">{formData.message.length}/1000</span>
+                </div>
+              </div>
+
+              {/* Submit Button */}
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className={`w-full btn-primary md:col-span-2 ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
+              >
+                {isSubmitting ? (
+                  <span className="flex items-center justify-center gap-2">Sending Message...</span>
+                ) : (
+                  <span className="flex items-center justify-center gap-2">Send Message</span>
+                )}
+              </button>
+            </form>
+          </div>
+
+          <div className="hidden 3xl:block relative w-full rounded-lg overflow-hidden shadow-lg 3xl:order-1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d102277707.9!2d0!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1234567890!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg"
+              title="Worldwide Service Coverage"
+            />
+          </div>
         </div>
       </div>
     </main>

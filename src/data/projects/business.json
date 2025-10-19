@@ -17,7 +17,7 @@
         "Customer testimonials display section",
         "Upcoming events and news updates"
       ],
-      "websiteUrl": "https://grilli-restaurant-virid.vercel.app/",
+      "websiteUrl": "https://grilli-restaurant-delta.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
       "subcategory": "Restaurant & Food"
@@ -107,6 +107,27 @@
       "subcategory": "Healthcare & Fitness"
     },
     {
+      "_id": "Futras",
+      "title": "Futras",
+      "image": "Futras.png",
+      "shortDescription": "Modern fitness and nutrition course platform design",
+      "detailedDescription": "Showcase your fitness and nutrition expertise with this comprehensive platform designed for health professionals, personal trainers, and wellness coaches. The website offers an engaging way to present courses, share valuable content, and connect with health-conscious individuals seeking guidance on their fitness journey. Visitors can explore various training programs, learn about nutrition principles, and discover lifestyle courses tailored to different needs including women's fitness, men's training, and basic wellness foundations.",
+      "additionalDescription": "Features dedicated sections for course listings with pricing and duration details, instructor profiles highlighting expertise and experience, blog articles sharing nutrition insights and fitness tips, and mobile app promotion for on-the-go coaching access. The design emphasizes visual appeal with hero banners, service cards, and an intuitive navigation system that guides visitors through available programs and educational content seamlessly.",
+      "keywords": [ "fitness instructor", "nutrition courses", "wellness training", "exercise programs", "diet and fitness", "workout courses", "lifestyle coaching", "weight loss plan" ],
+      "keyFeatures": [
+        "Multiple specialized fitness course offerings",
+        "Instructor profiles and expertise showcase",
+        "Blog section for nutrition articles",
+        "Course pricing and duration details",
+        "Mobile app download integration",
+        "Newsletter subscription functionality"
+      ],
+      "websiteUrl": "https://futras-fitness.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Healthcare & Fitness"
+    },
+    {
       "_id": "Tourly",
       "title": "Tourly",
       "image": "Tourly.png",
@@ -122,7 +143,7 @@
         "Responsive mobile-friendly navigation",
         "Newsletter subscription integration"
       ],
-      "websiteUrl": "https://tourly-travel-one.vercel.app/",
+      "websiteUrl": "https://tourly-travel-rust.vercel.app/",
       "isFeatured": true,
       "page": "Single Page",
       "subcategory": "Travel & Tourism"
@@ -358,6 +379,182 @@
       "isFeatured": true,
       "page": "Single Page",
       "subcategory": "Ecommerce & Store"
+    },
+    {
+      "_id": "Autofix",
+      "title": "Autofix",
+      "image": "Autofix.png",
+      "shortDescription": "Professional Auto Maintenance and Repair Service Website",
+      "detailedDescription": "Present your automotive repair and maintenance business with a professional online presence. This template showcases vehicle repair services, from engine and brake repairs to tire and battery maintenance. Highlight your experienced mechanics and engineers while building trust with potential customers through detailed service offerings. Perfect for auto repair shops, car maintenance centers, and vehicle service providers looking to establish credibility and attract more clients through an engaging digital storefront.",
+      "additionalDescription": "Features dedicated sections for service listings, portfolio showcase of completed projects, and comprehensive business information including opening hours and contact details. The design emphasizes trust and professionalism with clear service cards, compelling statistics about happy clients and years of experience, and easy-to-navigate layout that guides visitors from service discovery to quote requests seamlessly.",
+      "keywords": [ "garage website", "vehicle servicing", "automotive industry", "auto repair", "car service", "mechanic website", "vehicle repair shop", "electric vehicle", "e-scooter booking", "scooter", "bike booking", "transportation solutions", "cargo agency", "logistics company" ],
+      "keyFeatures": [
+        "Multiple Service Showcase Cards",
+        "Project Portfolio Gallery",
+        "Business Statistics Display",
+        "Opening Hours Information",
+        "Contact Information Section",
+        "Get Quote Call-to-Action"
+      ],
+      "websiteUrl": "https://autofix-vehicle.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Volti",
+      "title": "Volti",
+      "image": "Volti.png",
+      "shortDescription": "Modern Electric Vehicle and E-Scooter Booking Platform",
+      "detailedDescription": "Promote your eco-friendly electric vehicle or e-scooter rental business with a modern, engaging online platform. This template showcases electric vehicle specifications, charging solutions, and sustainable transportation options. Perfect for e-scooter rental companies, electric bike services, and green mobility startups looking to attract environmentally conscious customers. Features detailed vehicle performance stats, booking capabilities, and comprehensive information about zero-emission transportation benefits that help convert visitors into riders.",
+      "additionalDescription": "Includes dedicated sections for vehicle specifications with performance metrics, service advantages highlighting eco-friendly features, blog area for electric vehicle news and updates, newsletter subscription for customer engagement, and comprehensive contact information. The design emphasizes sustainability and innovation with smooth animations, statistics showcase, video integration capabilities, and compelling call-to-action buttons that encourage immediate bookings and quote requests for green transportation solutions.",
+      "keywords": [ "garage website", "vehicle servicing", "automotive industry", "auto repair", "car service", "mechanic website", "vehicle repair shop", "electric vehicle", "e-scooter booking", "scooter", "bike booking", "transportation solutions", "cargo agency", "logistics company" ],
+      "keyFeatures": [
+        "Vehicle Performance Statistics Display",
+        "Booking and Quote System",
+        "Service Advantages Showcase",
+        "Blog Section for Updates",
+        "Newsletter Subscription Form",
+        "Video Integration Capability",
+        "Contact Information Cards",
+        "Back to Top Navigation"
+      ],
+      "websiteUrl": "https://volti-vehicle.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Ridex",
+      "title": "Ridex",
+      "image": "Ridex.png",
+      "shortDescription": "Modern Car Rental and Lease Takeover Platform",
+      "detailedDescription": "Launch your car rental or lease takeover business with a sleek, user-friendly platform designed to connect customers with their perfect vehicle. This template showcases available cars with detailed specifications, pricing, and booking capabilities. Ideal for car rental companies, lease transfer services, and vehicle marketplace platforms looking to simplify the car selection and rental process. Features advanced search functionality, featured vehicle listings, and a step-by-step rental process that guides users from browsing to finalizing their deal with confidence.",
+      "additionalDescription": "Includes hero search form with filters for car model, budget, and year, extensive vehicle catalog with detailed specifications including passenger capacity, fuel type, mileage, and transmission details. Features a four-step process guide explaining how to create profiles, select vehicles, match with sellers, and complete transactions. Also incorporates blog section for automotive tips and company updates, favorite list functionality, contact information with business hours, and neighborhood location listings for local service areas.",
+      "keywords": [ "garage website", "vehicle servicing", "automotive industry", "auto repair", "car service", "mechanic website", "vehicle repair shop", "electric vehicle", "e-scooter booking", "scooter", "bike booking", "transportation solutions", "cargo agency", "logistics company" ],
+      "keyFeatures": [
+        "Advanced Search with Filters",
+        "Featured Vehicle Showcase",
+        "Detailed Car Specifications",
+        "Monthly Pricing Display",
+        "Favorite List Functionality",
+        "Step-by-Step Rental Guide",
+        "Blog Section Integration",
+        "Location-Based Services"
+      ],
+      "websiteUrl": "https://ridex-vehicle.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Transportio",
+      "title": "Transportio",
+      "image": "Transportio.png",
+      "shortDescription": "Professional Logistics and Cargo Transportation Agency Website",
+      "detailedDescription": "Establish your logistics and cargo transportation business with a comprehensive platform designed to showcase freight services and supply chain solutions. This template highlights multiple transportation modes including air, ocean, road, and rail freight, along with warehousing and project cargo capabilities. Perfect for logistics companies, freight forwarders, cargo agencies, and supply chain management firms looking to demonstrate their expertise and attract business clients. Features detailed service presentations, project portfolios, and solutions that emphasize reliability, tracking capabilities, and professional operations across all transportation methods.",
+      "additionalDescription": "Includes comprehensive service cards for six different freight solutions with detailed descriptions and call-to-action links, featured projects gallery showcasing completed work in warehousing and distribution, specialized features section highlighting tracking systems and multiple warehouse locations. Also features blog section for industry news and updates, newsletter subscription form for customer engagement, contact information with free call number, social media integration, and organized footer with quick links to services and community resources for easy navigation.",
+      "keywords": [ "garage website", "vehicle servicing", "automotive industry", "auto repair", "car service", "mechanic website", "vehicle repair shop", "electric vehicle", "e-scooter booking", "scooter", "bike booking", "transportation solutions", "cargo agency", "logistics company" ],
+      "keyFeatures": [
+        "Multiple Freight Service Options",
+        "Featured Projects Portfolio",
+        "Tracking Solutions Showcase",
+        "Service Detail Pages",
+        "Newsletter Subscription Form",
+        "Blog for Industry Updates",
+        "Contact Information Display",
+        "Back to Top Navigation"
+      ],
+      "websiteUrl": "https://transportio-vehicle.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Cryptex",
+      "title": "Cryptex",
+      "image": "Cryptex.png",
+      "shortDescription": "Cryptocurrency trading platform for digital asset exchange",
+      "detailedDescription": "Launch your cryptocurrency trading business with this comprehensive digital asset exchange platform designed for crypto traders and blockchain enthusiasts. Provide real-time market data, secure wallet connectivity, and seamless trading experiences for Bitcoin, Ethereum, and hundreds of other cryptocurrencies. Visitors can track live prices, analyze market trends, execute trades, and manage their digital portfolios through an intuitive interface that supports both web and mobile trading.",
+      "additionalDescription": "Features comprehensive market data tables with price tracking and favorites system, step-by-step trading instructions, mobile app integration with download links, and multiple cryptocurrency categories including DeFi, NFT, and Metaverse tokens. The platform emphasizes user education through guided processes and secure trading through wallet connectivity and professional market analysis tools.",
+      "keywords": [ "cryptocurrency", "bitcoin trading", "digital assets", "blockchain platform", "ethereum trading", "investment platform" ],
+      "keyFeatures": [
+        "Real-time cryptocurrency price tracking",
+        "Comprehensive market data tables",
+        "Secure wallet connectivity integration",
+        "Mobile trading app support",
+        "Multiple crypto category filtering",
+        "Step-by-step trading guidance system"
+      ],
+      "websiteUrl": "https://cryptex-bitcoin.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Crafti",
+      "title": "Crafti",
+      "image": "Crafti.png",
+      "shortDescription": "Handmade crafts business platform for artisan workshops",
+      "detailedDescription": "Showcase your handmade crafts business with this comprehensive artisan platform designed for craftspeople, workshops, and handmade product sellers. Display your unique craft collections, share your artisan story, highlight professional craftsmanship, and engage customers through educational content. Visitors can explore pottery and ceramics, leather crafts, home decorations, sculptural works, and accessories while learning about traditional crafting techniques and quality guarantees.",
+      "additionalDescription": "Features organized craft collections by category, professional workshop showcases with artisan stories, comprehensive product galleries with detailed presentations, and educational blog content covering crafting techniques and business insights. The platform emphasizes handmade quality through testimonials, professional staff credentials, and affordable pricing transparency to build customer trust.",
+      "keywords": [ "handmade products", "artisan workshop", "pottery ceramics", "leather crafts", "craft business" ],
+      "keyFeatures": [
+        "Multiple craft category showcases",
+        "Artisan workshop and history presentation",
+        "Professional craft gallery displays",
+        "Educational blog and crafting tutorials",
+        "Customer testimonials and guarantees",
+        "Quality assurance and pricing transparency"
+      ],
+      "websiteUrl": "https://crafti-handmades.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Fly",
+      "title": "Fly",
+      "image": "Fly.png",
+      "shortDescription": "Luxury private jet charter booking platform",
+      "detailedDescription": "Elevate your travel experience with this premium private jet charter platform designed for luxury aviation services and business travelers. Offer personalized flight schedules, exclusive airport access, and comfort-focused travel solutions. Visitors can book private flights, browse charter options, join rewards programs, and access special offers while enjoying the convenience of time-saving luxury aviation services tailored for discerning travelers.",
+      "additionalDescription": "Features comprehensive flight booking system with detailed charter information, rewards and miles collection programs, exclusive membership offers, and premium service guarantees. The platform emphasizes luxury and comfort through professional service cards, special business traveler offers, newsletter subscriptions, and comprehensive contact options for personalized aviation experiences.",
+      "keywords": [ "jet", "flight booking", "private jet", "charter flights" ],
+      "keyFeatures": [
+        "Private jet charter booking system",
+        "Personalized flight schedule management",
+        "Luxury travel rewards program",
+        "Exclusive airport access arrangements",
+        "Business traveler special offers",
+        "Premium aviation service guarantees"
+      ],
+      "websiteUrl": "https://fly-flights.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
+    },
+    {
+      "_id": "Barber",
+      "title": "Barber",
+      "image": "Barber.png",
+      "shortDescription": "Professional barber shop and salon booking platform",
+      "detailedDescription": "Establish your barber shop and hair salon with this comprehensive service platform designed for professional stylists, barbers, and beauty professionals. Showcase your hair cutting, styling, and grooming services while enabling online appointment booking, service pricing display, and customer engagement. Visitors can browse your services, view pricing plans, book appointments, explore your work gallery, and stay connected through newsletters and social media for a complete salon experience.",
+      "additionalDescription": "Features organized service categories including hair cutting, shaving, beauty treatments, and spa services, comprehensive pricing system with filterable service categories, professional photo gallery showcase, and integrated appointment booking form. The platform emphasizes professional presentation through detailed service descriptions, transparent pricing display, and customer convenience through easy booking and contact options.",
+      "keywords": [ "barber shop", "salon", "hair salon", "beard shaving", "facial treatments" ],
+      "keyFeatures": [
+        "Online appointment booking system",
+        "Service pricing with category filtering",
+        "Professional service gallery showcase",
+        "Multiple beauty and grooming services",
+        "Contact information and operating hours",
+        "Newsletter subscription and blog updates"
+      ],
+      "websiteUrl": "https://barber-cutting.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Business & Services"
     }
+
+
   ]
 }

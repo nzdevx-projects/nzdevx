@@ -9,13 +9,21 @@ const CATEGORY_DATA = {
   Community: community,
 };
 
+// ─── Cache for shuffled projects (persists across calls)
+let shuffledProjectsCache = null;
+
 /* ──────────────────────────────────────────────── Get All Projects */
-// Collect all projects, assign categories, and return shuffled
+// Collect all projects, assign categories, and shuffle only once
 export const getAllProjects = () => {
+  // Return cached version if it exists
+  if (shuffledProjectsCache) {
+    return shuffledProjectsCache;
+  }
+
+  // Build projects array
   const allProjects = [];
   Object.entries(CATEGORY_DATA).forEach(([categoryName, categoryData]) => {
     if (Array.isArray(categoryData.projects)) {
-      // Assign category to each project from top-level category
       const projectsWithCategory = categoryData.projects.map((project) => ({
         ...project,
         category: categoryName,
@@ -24,8 +32,15 @@ export const getAllProjects = () => {
     }
   });
 
-  // Always return shuffled
-  return allProjects.sort(() => Math.random() - 0.5);
+  // Shuffle and cache the result
+  shuffledProjectsCache = allProjects.sort(() => Math.random() - 0.5);
+  return shuffledProjectsCache;
+};
+
+/* ──────────────────────────────────────────────── Reset Shuffle Cache */
+// Call this to force a new shuffle (useful for manual refresh)
+export const resetProjectsShuffle = () => {
+  shuffledProjectsCache = null;
 };
 
 /* ──────────────────────────────────────────────── Get Projects by Category */
@@ -92,9 +107,9 @@ export const paginateProjects = (projects, page, limit) => {
 };
 
 /* ──────────────────────────────────────────────── Get Featured Projects */
-// Return only featured projects with a limit (already shuffled from getAllProjects)
+// Return only featured projects with a limit (uses cached shuffle)
 export const getFeaturedProjects = (limit = 6) => {
-  const allProjects = getAllProjects(); // Already shuffled!
+  const allProjects = getAllProjects(); // Uses cached shuffle!
   const featuredProjects = allProjects.filter((project) => project.isFeatured);
   return featuredProjects.slice(0, limit);
 };
@@ -109,7 +124,7 @@ export const getProjectsWithFilters = (filters = {}) => {
   if (category && category.toLowerCase() !== 'all' && CATEGORY_DATA[category]) {
     allProjects = getProjectsByCategory(category);
   } else {
-    allProjects = getAllProjects(); // Already shuffled!
+    allProjects = getAllProjects(); // Uses cached shuffle!
   }
 
   // ─── Step 2: Apply all filters

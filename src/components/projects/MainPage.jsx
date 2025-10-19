@@ -23,12 +23,11 @@ export default function MainPageUI() {
         'Ecommerce & Store',
         'Restaurant & Food',
         'Travel & Tourism',
-        'Beauty & Fashion',
         'Healthcare & Fitness',
         'Property Management',
       ],
-      Creative: ['Photography', 'Videography', 'Music', 'Blog', 'Personal'],
-      Community: ['Nonprofit', 'Events', 'Education'],
+      Creative: ['Blog', 'Personal', 'Creative Media'],
+      Community: ['Events', 'Education', 'Nonprofit'],
     }),
     []
   );

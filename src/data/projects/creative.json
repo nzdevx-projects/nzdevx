@@ -61,9 +61,119 @@
       ],
       "websiteUrl": "https://annie-sinclair.vercel.app/",
       "isFeatured": true,
-      "page": "Multi Pages",
+      "page": "Single Page",
       "subcategory": "Personal"
+    },
+    {
+      "_id": "Wren",
+      "title": "Wren",
+      "image": "Wren.png",
+      "shortDescription": "Modern personal blog template for content creators",
+      "detailedDescription": "Share your stories, insights, and expertise with a clean and elegant blogging platform designed for writers, journalists, and content creators. This template helps you connect with your audience through beautifully presented articles, trending topics, and engaging visual content. Whether you write about travel, lifestyle, design, or any other passion, this platform provides everything needed to build your online presence and grow your readership with professionally structured content layouts.",
+      "additionalDescription": "Features include a dynamic hero section introducing the author, categorized topic browsing with visual cards, editor's picked articles showcase, popular tags section for content discovery, recent posts grid with detailed previews, popular posts sidebar, reader comments display, Instagram feed integration, newsletter subscription forms, and smooth pagination. The template emphasizes readability with clear typography, organized content sections, and intuitive navigation designed to keep readers engaged and exploring more articles.",
+      "keywords": [ "blog website", "content creator", "article publishing", "writer portfolio", "story sharing", "blogging site", "trending topics" ],
+      "keyFeatures": [
+        "Featured editor's picked articles section",
+        "Categorized topic browsing with sliders",
+        "Popular tags and trending keywords",
+        "Recent posts grid with previews",
+        "Newsletter subscription integration",
+        "Reader comments and engagement display"
+      ],
+      "websiteUrl": "https://wren-blog.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Blog"
+    },
+    {
+      "_id": "Micro",
+      "title": "Micro",
+      "image": "Micro.png",
+      "shortDescription": "Professional podcast website template for content creators",
+      "detailedDescription": "Launch your podcast platform with this modern and engaging website template designed for content creators and audio enthusiasts. Showcase your podcast episodes, build your audience, and create a professional online presence that reflects your brand. Visitors can easily browse through episodes, subscribe to your content, and stay connected through newsletter signup and social media integration.",
+      "additionalDescription": "Features a clean hero section with subscription links, organized episode listings with play functionality, newsletter signup form, and comprehensive footer with contact information. The design emphasizes user engagement through donation options, search capabilities, and seamless navigation between podcast content and host information.",
+      "keywords": [ "music website", "audio content", "streaming", "podcast", "media platform" ],
+      "keyFeatures": [
+        "Episode listing with play buttons",
+        "Newsletter subscription integration",
+        "Social media platform links",
+        "Contact information display",
+        "Donation functionality support",
+        "Search and user features"
+      ],
+      "websiteUrl": "https://micro-music.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Filmlane",
+      "title": "Filmlane",
+      "image": "Filmlane.png",
+      "shortDescription": "Movie streaming platform template for entertainment websites",
+      "detailedDescription": "Launch your own movie streaming platform with this comprehensive entertainment website template designed for video content providers and streaming services. Showcase unlimited movies, TV shows, web series, and documentaries with professional presentation. Visitors can browse through categorized content, view ratings and details, discover upcoming releases, and subscribe to your streaming service with easy account management.",
+      "additionalDescription": "Features organized content sections including upcoming movies, top-rated films, TV series collections, and subscription signup forms. The design includes content filtering options, quality badges, rating systems, multi-language support, and download functionality. Built with user engagement in mind through trial offers and comprehensive content discovery.",
+      "keywords": [ "movie website", "video streaming", "entertainment site", "movie collection", "web series", "cinema website", "film platform" ],
+      "keyFeatures": [
+        "Movie and TV show collections",
+        "Content filtering and search functionality",
+        "User subscription and trial system",
+        "Quality ratings and review display",
+        "Multi-language content support",
+        "Download and offline viewing options"
+      ],
+      "websiteUrl": "https://filmlane-movies.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Gamics",
+      "title": "Gamics",
+      "image": "Gamics.png",
+      "shortDescription": "Gaming tournament platform for esports community management",
+      "detailedDescription": "Build your gaming community with this comprehensive esports platform designed for tournament organizers, gaming teams, and competitive players. Create and manage gaming matches, showcase the latest game releases, sell gaming products, and engage your audience through live streaming events. Visitors can participate in tournaments, watch live matches, browse gaming merchandise, and stay updated with the latest gaming news and community events.",
+      "additionalDescription": "Features tournament creation tools, live match streaming with player showcases, gaming product marketplace with controllers and hardware, game release galleries, gaming news blog section, and brand partnership displays. The platform emphasizes community engagement through newsletter signups, social media integration, and comprehensive match management systems for competitive gaming.",
+      "keywords": [ "game", "gaming website", "esports website", "tournament management" ],
+      "keyFeatures": [
+        "Gaming tournament creation and management",
+        "Live match streaming functionality",
+        "Gaming product marketplace integration",
+        "Game showcase and release galleries",
+        "Gaming news and blog section",
+        "Brand partnership display areas"
+      ],
+      "websiteUrl": "https://gamics-gaming.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Unigine",
+      "title": "Unigine",
+      "image": "Unigine.png",
+      "shortDescription": "Professional esports tournament platform for competitive gaming teams",
+      "detailedDescription": "Establish your esports organization with this comprehensive tournament platform designed for competitive gaming teams and esports communities. Showcase upcoming matches, manage tournament schedules, recruit talented players, and engage your audience through live streaming events. Visitors can follow match schedules, join your team, stay updated with gaming news, and connect through social media channels for an immersive competitive gaming experience.",
+      "additionalDescription": "Features professional tournament scheduling with team matchups, gaming news and updates section, team recruitment system, and live streaming integration. The platform emphasizes competitive gaming culture through detailed match information, social media connectivity for streaming platforms, and newsletter communication to build strong esports community engagement.",
+      "keywords": [ "game", "gaming website", "esports website", "tournament management" ],
+      "keyFeatures": [
+        "Tournament scheduling and match management",
+        "Team recruitment and player joining",
+        "Live streaming platform integration",
+        "Gaming news and updates section",
+        "Social media connectivity features",
+        "Professional tournament presentation layout"
+      ],
+      "websiteUrl": "https://unigine-game.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
     }
+
+
+
+
+
 
   ]
 }
