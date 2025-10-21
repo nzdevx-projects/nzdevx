@@ -32,8 +32,16 @@ export const getAllProjects = () => {
     }
   });
 
-  // Shuffle and cache the result
-  shuffledProjectsCache = allProjects.sort(() => Math.random() - 0.5);
+  // Separate featured and non-featured projects
+  const featuredProjects = allProjects.filter((project) => project.isFeatured);
+  const nonFeaturedProjects = allProjects.filter((project) => !project.isFeatured);
+
+  // Shuffle each group separately
+  const shuffledFeatured = featuredProjects.sort(() => Math.random() - 0.5);
+  const shuffledNonFeatured = nonFeaturedProjects.sort(() => Math.random() - 0.5);
+
+  // Put featured projects first, then non-featured
+  shuffledProjectsCache = [...shuffledFeatured, ...shuffledNonFeatured];
   return shuffledProjectsCache;
 };
 

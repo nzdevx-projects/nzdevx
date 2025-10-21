@@ -249,7 +249,7 @@
         "Joyful user experience"
       ],
       "websiteUrl": "https://santa-shop-event.netlify.app/",
-      "isFeatured": true,
+      "isFeatured": false,
       "page": "Single Page",
       "subcategory": "Events"
     }
