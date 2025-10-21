@@ -134,7 +134,7 @@
       "shortDescription": "Professional photographer portfolio showcasing creative visual storytelling",
       "detailedDescription": "Showcase your photography expertise with this stunning professional portfolio template designed for photographers and visual artists. Display your creative work across multiple categories including weddings, events, fashion, landscapes, and commercial projects. Visitors can explore your gallery, learn about your services, and easily get in touch for bookings and collaborations.",
       "additionalDescription": "Features an elegant gallery showcase, photography category sections, detailed about page with personal story, comprehensive services offerings, and portfolio highlights. The design emphasizes visual storytelling with smooth animations, custom cursor interactions, and professional presentation that builds client trust and showcases artistic expertise.",
-      "keywords": [ "photographer", "photography portfolio", "photo studio", "visual artist", "creative portfolio" ],
+      "keywords": [ "photographer", "photography portfolio", "photo studio", "visual artist", "wedding photography", "creative portfolio" ],
       "keyFeatures": [
         "Multiple photography category showcase",
         "Professional gallery with project details",
@@ -147,9 +147,111 @@
       "isFeatured": true,
       "page": "Single Page",
       "subcategory": "Events"
+    },
+    {
+      "_id": "Capturer",
+      "title": "Capturer",
+      "image": "Capturer.png",
+      "shortDescription": "Professional photography portfolio for capturing special moments",
+      "detailedDescription": "Showcase your photography expertise with this elegant portfolio platform designed for professional photographers, event specialists, and visual artists. Display your work through stunning galleries, highlight your photography services, and engage clients through authentic testimonials. Visitors can explore your portfolio, learn about your photography services including portraits and family sessions, read client testimonials, view your latest work, and connect with you for their special moments and events.",
+      "additionalDescription": "Features comprehensive portfolio showcase with organized galleries, specialized photography services including portrait, maternity, and family sessions, client testimonial slider with authentic reviews, and integrated social media presence with Instagram feed display. The platform emphasizes visual storytelling through professional galleries, service expertise, and client satisfaction to build trust and attract new photography clients.",
+      "keywords": [ "photographer", "photography portfolio", "photo studio", "visual artist", "wedding photography", "creative portfolio" ],
+      "keyFeatures": [
+        "Professional photography portfolio galleries",
+        "Specialized service offerings display",
+        "Client testimonials with slider functionality",
+        "Instagram feed integration",
+        "Photography blog and storytelling section",
+        "Comprehensive contact and social media connectivity"
+      ],
+      "websiteUrl": "https://capturer-photographer.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Events"
+    },
+    {
+      "_id": "Photography",
+      "title": "Photography",
+      "image": "Photography.png",
+      "shortDescription": "Showcase professional photography and creative visuals.",
+      "detailedDescription": "This elegant photography website highlights the art of capturing meaningful moments through powerful imagery and cinematic storytelling. Visitors can explore captivating portfolios, read insightful photography blogs, and learn about the creator’s approach to visual storytelling. It’s designed to inspire creativity and help connect with clients seeking professional photography or filmmaking services.",
+      "additionalDescription": "The website includes sections such as Home, About, Portfolio, Blog, and Contact. Each section is carefully designed to enhance user engagement and showcase visual work beautifully. Visitors can easily browse galleries, explore articles, and reach out through a simple and inviting contact form for collaborations or inquiries.",
+      "keywords": [ "photographer", "photography portfolio", "photo studio", "visual artist", "wedding photography", "creative portfolio" ],
+      "keyFeatures": [
+        "Modern and elegant layout",
+        "Dedicated portfolio gallery",
+        "Engaging blog section",
+        "Easy contact form",
+        "Responsive single-page design",
+        "Smooth scrolling navigation"
+      ],
+      "websiteUrl": "https://photography-event.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Events"
+    },
+    {
+      "_id": "Christmas",
+      "title": "Christmas",
+      "image": "Christmas.png",
+      "shortDescription": "Christmas event platform for holiday celebrations and gift-giving",
+      "detailedDescription": "Create magical Christmas experiences with this comprehensive holiday event platform designed for event organizers, businesses, and communities planning festive celebrations. Showcase Christmas gifts, organize holiday events, enable gift-giving experiences, and spread Christmas joy through interactive messaging. Visitors can explore Christmas gift collections, learn about holiday celebrations, send festive messages, browse gift categories with pricing, and participate in the spirit of Christmas giving and celebration.",
+      "additionalDescription": "Features extensive Christmas gift catalog with pricing and categories, interactive gift-giving sections with surprise gifts and ornaments, holiday celebration content with love and peace messaging, and Christmas card messaging system for spreading good wishes. The platform emphasizes the Christmas spirit through festive design elements, gift-sharing capabilities, and community celebration features for the holiday season.",
+      "keywords": [ "Christmas events", "festive events", "festive collection", "santa gifts", "seasonal events" ],
+      "keyFeatures": [
+        "Christmas gift catalog with pricing",
+        "Holiday celebration event planning",
+        "Interactive Christmas messaging system",
+        "Gift-giving and sharing features",
+        "Festive theme with seasonal design",
+        "Community Christmas wish-sending platform"
+      ],
+      "websiteUrl": "https://christmas-events.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Events"
+    },
+    {
+      "_id": "Halloween",
+      "title": "Halloween",
+      "image": "Halloween.png",
+      "shortDescription": "Spooky event website for thrilling Halloween fun.",
+      "detailedDescription": "The Halloween website brings the festive spirit of October to life with spooky visuals, engaging sections, and themed elements. Visitors can explore featured characters, discover trick-or-treat items, and enjoy an interactive layout inspired by classic Halloween celebrations. It’s perfect for promoting Halloween parties, themed stores, or seasonal campaigns that aim to entertain and engage users with a fun and mysterious touch.",
+      "additionalDescription": "This single-page site includes sections such as home, about, candy collection, new arrivals, and newsletter subscription. It features sliding banners, product displays, and promotional discounts. The design focuses on a playful yet eerie aesthetic with smooth navigation and attractive illustrations that enhance the user experience during the Halloween season.",
+      "keywords": [ "halloween event", "spooky website", "trick or treat", "seasonal theme", "festive design" ],
+      "keyFeatures": [
+        "Animated Halloween-themed sliders",
+        "Candy and accessories showcase",
+        "Seasonal discounts and offers",
+        "Newsletter subscription section",
+        "Interactive and engaging layout",
+        "Visually rich festive design"
+      ],
+      "websiteUrl": "https://halloween-event-xi.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Events"
+    },
+    {
+      "_id": "Santa-Shop",
+      "title": "Santa Shop",
+      "image": "Santa-Shop.png",
+      "shortDescription": "Celebrate Christmas with joyful festive shopping experience.",
+      "detailedDescription": "Santa Shop is a cheerful holiday-themed website designed to capture the festive spirit of Christmas shopping. It showcases a wide range of categories, from toys and gifts to decors and sweets, creating a delightful browsing experience. Visitors can explore product collections, discover gift ideas, and enjoy a warm and joyful design that brings the magic of the holiday season to life.",
+      "additionalDescription": "This single-page layout features sections such as Festive Collection, Categories, Shopping List, and Coupon Sign-Up. Each part highlights different ways to explore and enjoy holiday shopping. The colorful visuals, smooth browsing experience, and easy navigation make it ideal for users looking to find inspiration and excitement during the festive period.",
+      "keywords": [ "Christmas events", "festive events", "festive collection", "santa gifts", "seasonal events" ],
+      "keyFeatures": [
+        "Vibrant festive design",
+        "Shop by category section",
+        "Interactive shopping grid",
+        "Coupon signup feature",
+        "Responsive single-page layout",
+        "Joyful user experience"
+      ],
+      "websiteUrl": "https://santa-shop-event.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Events"
     }
-
-
-
   ]
 }
