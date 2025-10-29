@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { AppProviders } from '@/hooks/providers.js';
 import SiteHeader from '../components/SiteHeader.jsx';
 import SiteFooter from '../components/SiteFooter.jsx';
+import { GoogleAnalytics } from 'nextjs-google-analytics';
 
 export default function SiteLayout({ children }) {
   const pathname = usePathname();
@@ -17,6 +18,7 @@ export default function SiteLayout({ children }) {
       {!isFullPage && <SiteFooter />}
 
       <Toaster position="top-right" expand={true} closeButton richColors />
+      <GoogleAnalytics trackPageViews gaMeasurementId="G-L9P3J53N1Q" />
     </AppProviders>
   );
 }
