@@ -1,0 +1,139 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "icon": "/services/icon-1.png",
+      "description": "I create professional websites that work perfectly on all devices. Your site will look great and function smoothly, helping you reach more customers online and grow your business effectively."
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Store",
+      "icon": "/services/icon-2.png",
+      "description": "I build online stores where customers can easily browse and purchase your products. Your e-commerce site will be secure, user-friendly, and designed to increase sales and grow your business."
+    },
+    {
+      "id": 3,
+      "title": "CMS Development",
+      "icon": "/services/icon-3.png",
+      "description": "I create websites with easy-to-use management systems, allowing you to update content yourself. No technical skills needed – you'll have full control to keep your site fresh and current."
+    },
+    {
+      "id": 4,
+      "title": "Design to Website",
+      "icon": "/services/icon-4.png",
+      "description": "I transform your Figma/PSD designs into fully functional websites. Your visual concepts become interactive sites that work perfectly on all devices while maintaining exact design vision."
+    },
+    {
+      "id": 5,
+      "title": "Website Redesign",
+      "icon": "/services/icon-5.png",
+      "description": "I update your existing website with a modern look and improved functionality. Your redesigned site will work better, attract more visitors, and provide an improved experience for your users."
+    },
+    {
+      "id": 6,
+      "title": "Website Maintenance",
+      "icon": "/services/icon-6.png",
+      "description": "I provide regular care for your website, keeping it secure, updated, and running smoothly. With ongoing maintenance, your site will always perform well and stay protected from problems."
+    }
+  ],
+  "process": [
+    {
+      "title": "Discovery & Planning",
+      "description": "We'll discuss your goals, target audience, and requirements to create a detailed plan for your website project."
+    },
+    {
+      "title": "Design & Mockups",
+      "description": "I'll create visual designs and mockups for your website, then get your feedback before moving to development."
+    },
+    {
+      "title": "Development",
+      "description": "I'll build your website using modern technologies and industry best practices to ensure quality and performance."
+    },
+    {
+      "title": "Testing & Revisions",
+      "description": "We'll test the website thoroughly across all devices and make any needed adjustments based on your feedback."
+    },
+    {
+      "title": "Launch & Support",
+      "description": "Your website goes live! I'll handle deployment and ensure everything runs smoothly for a successful launch."
+    },
+    {
+      "title": "Payment & Security",
+      "description": "Your website work begins after 25% advance payment or through [Fiverr] for secure hiring and peace of mind.",
+      "hasFiverrLink": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What makes your web development approach different?",
+      "answer": "I don't just make websites that look good - I make websites that help your business grow! I take time to understand your business, your competitors, and your customers. Then I build websites that work better than expected. I focus on getting you more customers, ranking high on Google, and making your website easy to use. Your website will help make money and grow with your business."
+    },
+    {
+      "id": 2,
+      "question": "What types of websites do you build?",
+      "answer": "I build many different types of websites! I can make business websites, online stores, portfolios, restaurant websites, event pages, blogs, and company websites. I work with all kinds of businesses and industries. Each website is built to help you get more customers and grow your business. I use modern tools to make websites that are fast, look great, and help you succeed online."
+    },
+    {
+      "id": 3,
+      "question": "What tools do you use to build websites?",
+      "answer": "I use modern, reliable tools that help your business succeed! I work with popular technologies like HTML, CSS, JavaScript, React, Next.js, Node.js, MongoDB, Tailwind CSS, and other modern tools. These make websites that are fast, safe, and easy to use. I choose the best tools for each project to help you get more customers, appear higher in Google searches, and grow your business."
+    },
+    {
+      "id": 4,
+      "question": "How much do your website services cost?",
+      "answer": "I give fair prices based on what you need. Every business is different, so I don't have fixed prices. First, I listen to what you want for your website. Then I give you a clear price quote. Whether you need a simple business website, online shop, or something more complex, I will make a price that fits your budget and gives you great results. Contact me for a free discussion about your website ideas."
+    },
+    {
+      "id": 5,
+      "question": "How long does it take to build a website?",
+      "answer": "I make sure your website is done right, not just done fast. When we talk, I will look at what you need and tell you exactly how long it will take. The time depends on how complex your website is, what special features you want, and how quickly you give me feedback. I make a website that works perfectly and helps your business grow. I will give you a clear plan and keep you updated, so you always know when your new website will be ready."
+    },
+    {
+      "id": 6,
+      "question": "What information do you need from me to start a project?",
+      "answer": "I will ask you some questions to understand what you need. I need to know about your business goals, who your customers are, what design you like, what content you have, and what features you want. I also need to know your budget, when you need it done, and how you measure success. This helps me build the perfect website for your business."
+    },
+    {
+      "id": 7,
+      "question": "Will my website work well on mobile phones?",
+      "answer": "Yes! Making websites work on mobile phones is very important. Most people (over 60%) use phones to visit websites. I build websites that look great and work perfectly on all devices - phones, tablets, laptops, and computers. This helps you get more customers and sales. Your business will be easy to find online no matter what device people use."
+    },
+    {
+      "id": 8,
+      "question": "Will my website be fast and secure?",
+      "answer": "Yes! I build websites to be very fast and safe. I write clean code that makes your website load quickly and use strong security to protect your business and customer information. Your website will have SSL certificates and regular security updates. This makes your website faster than most others and keeps it completely safe. Fast, secure websites help customers trust you more and buy from you."
+    },
+    {
+      "id": 9,
+      "question": "Can you help with website hosting and domain registration?",
+      "answer": "Yes! I can help you get hosting and register your domain name. I work with good hosting companies that make websites fast and secure. Your website will work 99.9% of the time without problems. I will set up everything properly so your website loads quickly and ranks well on Google. This means your website will work great from the start and help your business compete online."
+    },
+    {
+      "id": 10,
+      "question": "Can you redesign my existing website without losing content?",
+      "answer": "Yes! I can make your website look new and modern while keeping all your content safe. I carefully move all your text, images, and information to the new design. I also make your website work better and easier to use. Your website will keep its Google rankings and get more customers with the new, improved design. You won't lose anything important from your old website."
+    },
+    {
+      "id": 11,
+      "question": "Can you turn my Figma/PSD design into a website?",
+      "answer": "Yes! I can turn your designs into working websites. Whether you have Figma, PSD, or Sketch files, I will make them into fast websites that work on all devices. I make sure the website looks exactly like your design and works smoothly. The website will be fast, easy to use, and help turn visitors into customers."
+    },
+    {
+      "id": 12,
+      "question": "Can you build content management systems (CMS)?",
+      "answer": "Yes! I can build systems that let you easily update your website yourself. I use popular tools like Shopify and WordPress that are simple to use - no technical skills needed. You can change text, add pictures, and update content anytime. These systems also help with Google rankings, let you schedule posts, and show you how your website is doing. This keeps your website fresh and helps your business grow."
+    },
+    {
+      "id": 13,
+      "question": "Do you provide website maintenance and ongoing support?",
+      "answer": "Yes! I help keep your website working well after it's built. I offer different support plans that include regular updates, security protection, backups, and technical help when you need it. These services keep your website safe, fast, and running smoothly. This helps your website stay visible on Google and keep getting you new customers. I will suggest the best support plan for your needs and budget."
+    },
+    {
+      "id": 14,
+      "question": "Do you work with clients worldwide?",
+      "answer": "Yes! I work with businesses all around the world. I have over 4 years of experience working with different countries and cultures. I use online tools to communicate and manage projects easily, no matter where you are located. I can work in different time zones and understand different cultures to make websites that work well for your local customers."
+    }
+  ]
+}

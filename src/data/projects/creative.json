@@ -1,0 +1,257 @@
+{
+"category": "Creative",
+  "projects": [
+    {
+      "_id": "Troy-Carter",
+      "title": "Troy Carter",
+      "image": "Troy-Carter.png",
+      "shortDescription": "Elegant portfolio template for creative professionals",
+      "detailedDescription": "Present your skills and projects with this elegant portfolio template designed for designers, developers, and digital professionals. Built with a clean, professional layout that helps you display your work, expertise, and achievements effectively. The template includes sections for services offered, detailed about information with multiple tabs, project showcases, client testimonials, and contact information. Perfect for freelancers, agencies, or creative professionals looking to establish a strong online presence and attract potential clients.",
+      "additionalDescription": "The template provides multiple interactive sections: services overview, tabbed about section with skillset display, interview videos, awards and certificates, exhibition gallery, project portfolio with detailed cards, client testimonials, and a comprehensive contact section with integrated map. Includes smooth animations, custom cursor effects, element tilt interactions, and mobile-responsive navigation for an engaging user experience across all devices.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Interactive tabbed about section",
+        "Project showcase with detailed cards",
+        "Services and skills display",
+        "Client testimonials section",
+        "Contact form with map integration",
+        "Custom cursor and hover effects"
+      ],
+      "websiteUrl": "https://troy-carter.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Jack-Irwin",
+      "title": "Jack Irwin",
+      "image": "Jack-Irwin.png",
+      "shortDescription": "Professional portfolio highlighting creative development work",
+      "detailedDescription": "Display your professional journey and creative projects with this elegant personal portfolio template. Designed for developers, designers, and creative professionals, this portfolio presents your skills, experience, and completed work in a visually appealing format. Visitors can explore your background, view your technical abilities, browse through project showcases, and easily get in touch. The clean layout and intuitive navigation ensure potential clients and employers can quickly understand your expertise and accomplishments.",
+      "additionalDescription": "Includes a comprehensive about section highlighting your professional story, an interactive skills display with toggleable views for technical skills and tools, a project gallery showcasing completed work with visual previews, and a detailed contact section with multiple communication options. The template offers theme switching between light and dark modes, smooth scrolling navigation, responsive mobile menu, and social media integration for enhanced connectivity.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Light and dark theme toggle",
+        "Interactive skills and tools showcase",
+        "Project portfolio with visual gallery",
+        "Professional statistics display section",
+        "Comprehensive contact form and information",
+        "Smooth scrolling navigation system"
+      ],
+      "websiteUrl": "https://jack-irwin.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Annie-Sinclair",
+      "title": "Annie Sinclair",
+      "image": "Annie-Sinclair.png",
+      "shortDescription": "Creative  portfolio presenting professional skills and projects",
+      "detailedDescription": "Highlight your professional journey and creative work with this elegant portfolio template. Designed for freelancers, developers, and creative professionals, this template helps you present your skills, services, and completed projects in a visually appealing way. Visitors can explore your expertise, view your portfolio pieces, read client testimonials, and easily get in touch through a dedicated contact section.",
+      "additionalDescription": "Offers a welcoming home page with introduction and skills overview, dedicated services page highlighting what you offer, portfolio gallery displaying your latest projects, and comprehensive contact page with multiple ways to reach you. The clean, professional design ensures your work takes center stage while providing seamless navigation across all sections.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Multi-page layout with smooth navigation",
+        "Portfolio gallery with project showcases",
+        "Services section with detailed offerings",
+        "Client testimonials and reviews display",
+        "Contact form with location details",
+        "Responsive design for all devices"
+      ],
+      "websiteUrl": "https://annie-sinclair.vercel.app/",
+      "isFeatured": false,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Andarson",
+      "title": "Andarson",
+      "image": "Andarson.png",
+      "shortDescription": "Modern portfolio showcasing creativity, projects, and client testimonials.",
+      "detailedDescription": "The Andarson portfolio website highlights the personal brand of a web developer through a stylish, responsive design. It features smooth navigation, engaging animations, and structured sections like About, Projects, Services, Testimonials, Blog, and Contact. Built with clean HTML, CSS, and JavaScript, it offers an elegant yet functional interface that effectively presents both personal and professional work.",
+      "additionalDescription": "Perfect for developers, designers, or freelancers, Andarson combines minimalism with interactivity. It includes modern UI components such as a swiper-based testimonial slider, MixItUp project filtering, and ScrollReveal animations — creating a smooth and immersive browsing experience. The layout is responsive across all devices, ensuring a polished presentation of skills and portfolio pieces.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Clean and responsive one-page portfolio layout",
+        "Sections for About, Projects, Services, Blog, and Contact",
+        "MixItUp filter integration for dynamic project sorting",
+        "Swiper.js testimonial slider with modern transitions",
+        "ScrollReveal animations for smooth content appearance",
+        "Built with pure HTML, CSS, and JavaScript — no framework required"
+      ],
+      "websiteUrl": "https://andarson-portfolio.netlify.app/",
+      "isFeatured": false,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Cooper",
+      "title": "Cooper",
+      "image": "Cooper.png",
+      "shortDescription": "Showcase your creative design and portfolio skills.",
+      "detailedDescription": "Cooper is a personal portfolio website designed to present creative professionals, designers, or artists in a stylish and engaging way. It highlights professional achievements, creative services, and experience through a clean, modern layout. Visitors can explore sections like About, Resume, and Blog, discovering design expertise, past work, and valuable insights. It’s ideal for showcasing talent, attracting clients, and creating a memorable online presence that leaves a lasting visual impression.",
+      "additionalDescription": "This portfolio features a single-page design with smooth navigation across sections such as About, Resume, Services, Blog, and Contact. The layout balances visuals and text to create a seamless user experience. Interactive elements like testimonials, animated progress bars, and blog posts enhance engagement. Designed for professionals seeking to display their creativity and personality through a polished, user-friendly digital space.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Clean and modern single-page layout",
+        "Professional about and resume sections",
+        "Client testimonials and blog posts",
+        "Contact form with social media links",
+        "Animated progress bars and visuals",
+        "Engaging and user-friendly interface"
+      ],
+      "websiteUrl": "https://cooper-portfolios.netlify.app/",
+      "isFeatured": false,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Mary-Hardy",
+      "title": "Mary Hardy",
+      "image": "Mary-Hardy.png",
+      "shortDescription": "Personal portfolio showcasing digital marketing expertise.",
+      "detailedDescription": "Mary Hardy is a personal portfolio website designed to highlight the skills, achievements, and services of a digital marketing professional. It introduces Mary’s background, qualifications, and career journey while providing potential clients and employers with insights into her marketing expertise. The website features a modern, elegant design focused on professionalism and clarity, making it easy for visitors to learn about Mary’s services, experience, and accomplishments in one place.",
+      "additionalDescription": "This single-page portfolio includes sections such as Home, About, Services, Portfolio, Clients, and Blog. It features testimonials, client feedback, and educational background to strengthen credibility. The design emphasizes readability, visual balance, and user-friendly navigation—ideal for showcasing personal branding, marketing skills, and creative work effectively online.",
+      "keywords": [ "portfolio", "freelancer", "developer", "designer", "profile", "project showcase",  "work showcase", " personal portfolio", "professional portfolio", "resume", "personal website", "creative work", "cv website" ],
+      "keyFeatures": [
+        "Personal introduction and expertise section",
+        "Professional journey and education timeline",
+        "Service offerings with descriptions",
+        "Client testimonials and reviews",
+        "Portfolio showcase with categories",
+        "Engaging blog and updates section"
+      ],
+      "websiteUrl": "https://mary-hardy.vercel.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Personal"
+    },
+    {
+      "_id": "Wren",
+      "title": "Wren",
+      "image": "Wren.png",
+      "shortDescription": "Modern personal blog template for content creators",
+      "detailedDescription": "Share your stories, insights, and expertise with a clean and elegant blogging platform designed for writers, journalists, and content creators. This template helps you connect with your audience through beautifully presented articles, trending topics, and engaging visual content. Whether you write about travel, lifestyle, design, or any other passion, this platform provides everything needed to build your online presence and grow your readership with professionally structured content layouts.",
+      "additionalDescription": "Features include a dynamic hero section introducing the author, categorized topic browsing with visual cards, editor's picked articles showcase, popular tags section for content discovery, recent posts grid with detailed previews, popular posts sidebar, reader comments display, Instagram feed integration, newsletter subscription forms, and smooth pagination. The template emphasizes readability with clear typography, organized content sections, and intuitive navigation designed to keep readers engaged and exploring more articles.",
+      "keywords": [ "blog website", "content creator", "article publishing", "writer portfolio", "story sharing", "blogging site", "trending topics" ],
+      "keyFeatures": [
+        "Featured editor's picked articles section",
+        "Categorized topic browsing with sliders",
+        "Popular tags and trending keywords",
+        "Recent posts grid with previews",
+        "Newsletter subscription integration",
+        "Reader comments and engagement display"
+      ],
+      "websiteUrl": "https://wren-blog.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Blog"
+    },
+    {
+      "_id": "Micro",
+      "title": "Micro",
+      "image": "Micro.png",
+      "shortDescription": "Professional podcast website template for content creators",
+      "detailedDescription": "Launch your podcast platform with this modern and engaging website template designed for content creators and audio enthusiasts. Showcase your podcast episodes, build your audience, and create a professional online presence that reflects your brand. Visitors can easily browse through episodes, subscribe to your content, and stay connected through newsletter signup and social media integration.",
+      "additionalDescription": "Features a clean hero section with subscription links, organized episode listings with play functionality, newsletter signup form, and comprehensive footer with contact information. The design emphasizes user engagement through donation options, search capabilities, and seamless navigation between podcast content and host information.",
+      "keywords": [ "music website", "audio content", "sound template", "artist portfolio", "streaming", "podcast", "media platform" ],
+      "keyFeatures": [
+        "Episode listing with play buttons",
+        "Newsletter subscription integration",
+        "Social media platform links",
+        "Contact information display",
+        "Donation functionality support",
+        "Search and user features"
+      ],
+      "websiteUrl": "https://micro-music.netlify.app/",
+      "isFeatured": false,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Music",
+      "title": "Music",
+      "image": "Music.png",
+      "shortDescription": "Creative and modern music-themed website for artists and sound enthusiasts.",
+      "detailedDescription": "Music is a modern and visually captivating single-page website designed to showcase the world of sound, rhythm, and creativity. It features elegant animations, interactive sections, and a sleek layout that highlights music features, sound quality, client reviews, and more. Built with a stylish combination of Swiper sliders and ScrollReveal effects, this site creates an immersive and engaging experience for users who love music and art.",
+      "additionalDescription": "This creative website is perfect for musicians, music studios, producers, or sound brands looking to promote their services and style. It includes sections like Home, Features, Quality, Clients, and Contact, ensuring smooth navigation and high-quality visuals. Its responsive design and modern UI elements make it suitable for any creative portfolio or digital sound platform presentation.",
+      "keywords": [ "music website", "audio content", "sound template", "artist portfolio", "streaming", "podcast", "media platform" ],
+      "keyFeatures": [
+        "Creative and modern layout for music lovers",
+        "Smooth scroll and animation effects",
+        "Integrated client review slider using Swiper",
+        "High-quality visual and responsive design",
+        "Sections for features, quality, and testimonials",
+        "Ideal for musicians, studios, or creative brands"
+      ],
+      "websiteUrl": "https://music-creative.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Filmlane",
+      "title": "Filmlane",
+      "image": "Filmlane.png",
+      "shortDescription": "Movie streaming platform template for entertainment websites",
+      "detailedDescription": "Launch your own movie streaming platform with this comprehensive entertainment website template designed for video content providers and streaming services. Showcase unlimited movies, TV shows, web series, and documentaries with professional presentation. Visitors can browse through categorized content, view ratings and details, discover upcoming releases, and subscribe to your streaming service with easy account management.",
+      "additionalDescription": "Features organized content sections including upcoming movies, top-rated films, TV series collections, and subscription signup forms. The design includes content filtering options, quality badges, rating systems, multi-language support, and download functionality. Built with user engagement in mind through trial offers and comprehensive content discovery.",
+      "keywords": [ "movie website", "video streaming", "entertainment site", "movie collection", "web series", "cinema website", "film platform" ],
+      "keyFeatures": [
+        "Movie and TV show collections",
+        "Content filtering and search functionality",
+        "User subscription and trial system",
+        "Quality ratings and review display",
+        "Multi-language content support",
+        "Download and offline viewing options"
+      ],
+      "websiteUrl": "https://filmlane-movies.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Gamics",
+      "title": "Gamics",
+      "image": "Gamics.png",
+      "shortDescription": "Gaming tournament platform for esports community management",
+      "detailedDescription": "Build your gaming community with this comprehensive esports platform designed for tournament organizers, gaming teams, and competitive players. Create and manage gaming matches, showcase the latest game releases, sell gaming products, and engage your audience through live streaming events. Visitors can participate in tournaments, watch live matches, browse gaming merchandise, and stay updated with the latest gaming news and community events.",
+      "additionalDescription": "Features tournament creation tools, live match streaming with player showcases, gaming product marketplace with controllers and hardware, game release galleries, gaming news blog section, and brand partnership displays. The platform emphasizes community engagement through newsletter signups, social media integration, and comprehensive match management systems for competitive gaming.",
+      "keywords": [ "game", "gaming website", "esports website", "tournament management" ],
+      "keyFeatures": [
+        "Gaming tournament creation and management",
+        "Live match streaming functionality",
+        "Gaming product marketplace integration",
+        "Game showcase and release galleries",
+        "Gaming news and blog section",
+        "Brand partnership display areas"
+      ],
+      "websiteUrl": "https://gamics-gaming.netlify.app/",
+      "isFeatured": false,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    },
+    {
+      "_id": "Unigine",
+      "title": "Unigine",
+      "image": "Unigine.png",
+      "shortDescription": "Professional esports tournament platform for competitive gaming teams",
+      "detailedDescription": "Establish your esports organization with this comprehensive tournament platform designed for competitive gaming teams and esports communities. Showcase upcoming matches, manage tournament schedules, recruit talented players, and engage your audience through live streaming events. Visitors can follow match schedules, join your team, stay updated with gaming news, and connect through social media channels for an immersive competitive gaming experience.",
+      "additionalDescription": "Features professional tournament scheduling with team matchups, gaming news and updates section, team recruitment system, and live streaming integration. The platform emphasizes competitive gaming culture through detailed match information, social media connectivity for streaming platforms, and newsletter communication to build strong esports community engagement.",
+      "keywords": [ "game", "gaming website", "esports website", "tournament management" ],
+      "keyFeatures": [
+        "Tournament scheduling and match management",
+        "Team recruitment and player joining",
+        "Live streaming platform integration",
+        "Gaming news and updates section",
+        "Social media connectivity features",
+        "Professional tournament presentation layout"
+      ],
+      "websiteUrl": "https://unigine-game.netlify.app/",
+      "isFeatured": true,
+      "page": "Single Page",
+      "subcategory": "Creative Media"
+    }
+  ]
+}
