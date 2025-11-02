@@ -155,7 +155,7 @@ export default function MainPageUI() {
             </div>
             <div>
               <h3 className="font-nunito font-bold text-secondary">Response Time</h3>
-              <p className="text-tertiary">Usually within 2-4 hours</p>
+              <p className="text-tertiary">Usually within 1 hours</p>
             </div>
           </div>
 

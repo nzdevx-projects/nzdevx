@@ -125,6 +125,22 @@
   }
 }
 
+/* ──────────────────────── Whatapp Button Animation. */
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(16, 185, 129, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+.animate-ripple {
+  animation: ripple 2s infinite;
+}
+
 /* ──────────────────────── Mercury Driping Animation. */
 @keyframes mercury-drip {
   0% {

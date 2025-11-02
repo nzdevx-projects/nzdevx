@@ -19,7 +19,12 @@ export default function HomePage() {
             {/* ─── Hero Image */}
             <div className="hero-image flex-center relative overflow-hidden rounded-full aspect-square p-[3px] 3xl:p-[3.5px] 6xl:p-[4px]  w-[88%] 3xl:w-full max-w-[315px] 3xl:max-w-[350px] 6xl:max-w-[380px]">
               <div className="bg-primary flex-center overflow-hidden rounded-full size-full transition-500 z-10">
-                <Image src="/nawaz.png" alt="nawaz profile" fill className="transform translate-y-5 object-cover" />
+                <Image
+                  src="/nawaz.png"
+                  alt="nawaz profile"
+                  fill
+                  className="transform translate-y-5 object-cover scale-90"
+                />
               </div>
             </div>
 
