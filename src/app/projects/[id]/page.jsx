@@ -144,7 +144,7 @@ const ProjectDetailPage = async ({ params }) => {
             {/* Project Meta Information */}
             <div className="bg-secondary shadow rounded-xl p-4">
               <h3 className="text-primary text-2xl font-bold mb-3">Project Info</h3>
-              <div className="space-y-3 xs:flex xs:flex-wrap xs:justify-between xs:gap-10">
+              <div className="space-y-3 sm:flex sm:flex-wrap sm:justify-between sm:gap-10">
                 <div className="xs:flex xs:flex-wrap xs:gap-2 sm:block">
                   <span className="text-sm">Project Name:</span>
                   <p className="text-tertiary">{project.title}</p>

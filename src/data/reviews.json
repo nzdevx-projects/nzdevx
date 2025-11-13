@@ -6,7 +6,7 @@
       "name": "Marcus Chen",
       "profession": "E-commerce Business Owner",
       "image": "https://koreajoongangdaily.joins.com/jmnet/koreajoongangdaily/_data/photo/2010/07/16213753.jpg",
-      "feedback": "I needed someone who understood both design and functionality for my online store. Nawaz delivered exactly that - a beautiful shop that's easy for my customers to navigate and for me to manage. Sales have increased by 40% since the new site launched."
+      "feedback": "Working with Nawaz completely transformed my online store. The new website looks stunning and performs flawlessly. Customers spend more time browsing and my sales jumped by over 40% within the first month. Highly professional and results-driven work."
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "name": "Sarah Mitchell",
       "profession": "Restaurant Owner",
       "image": "https://www.cheerspattaya.com/content-photos/place_987_041d8f67-95f2a3ba_square.jpg",
-      "feedback": "Nawaz built our restaurant website and it completely changed how customers find us online. The site loads incredibly fast on phones, which is perfect since most people search for restaurants on mobile. We're getting more online orders than ever before!"
+      "feedback": "Our restaurant site now attracts more online orders than ever! It's super fast, easy to use, and looks amazing on phones. Since launch, reservations have noticeably increased. Couldn’t be happier with the results."
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "name": "David Thompson",
       "profession": "Small Business Consultant",
       "image": "https://ui-avatars.com/api/?name=David+Thompson&background=random",
-      "feedback": "As someone who works with many small businesses, I can confidently say Nawaz is one of the best developers I've encountered. He doesn't just build websites - he creates tools that actually help businesses grow. I now recommend him to all my clients."
+      "feedback": "As a consultant, I’ve seen many developers — but Nawaz stands out. He builds websites that help businesses actually grow, not just look pretty. I now recommend him to every small business I work with."
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "name": "Emma Rodriguez",
       "profession": "Freelance Photographer",
       "image": "https://media.muckrack.com/profile/images/1252008/monica-d-spencer.jpeg.256x256_q100_crop-smart.jpg",
-      "feedback": "My portfolio needed to showcase my photography in the best possible way. Nawaz created a stunning website that lets my images speak for themselves while being super fast to load. I've booked more clients in three months than I did all last year!"
+      "feedback": "My photography portfolio finally reflects my brand. The website is fast, minimal, and truly lets my work shine. I’ve booked more clients in three months than the entire previous year!"
     },
     {
       "id": 5,
@@ -38,16 +38,15 @@
       "name": "James O'Connor",
       "profession": "Fitness Coach",
       "image": "https://www.etownfitnessclub.com/uploads/4/4/7/3/44730691/published/p47.png?1708098075",
-      "feedback": "I'm not tech-savvy at all, but Nawaz made the whole process so easy to understand. He built me a website where I can update my training programs and blog posts myself without needing any coding knowledge. It's been a game-changer for my online coaching business."
+      "feedback": "I’m not a tech person, but Nawaz made the process stress-free. He explained everything clearly and built me a site I can manage myself. My online coaching sign-ups have doubled since launch."
     },
-
     {
       "id": 6,
       "rating": 4,
       "name": "Priya Sharma",
       "profession": "Event Planning Company Owner",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQ5_hW78DgXGZirp7vH8VTnpCmKAEolYFPg&s",
-      "feedback": "We needed a website that could handle bookings and showcase our events beautifully. Nawaz understood our vision immediately and built something that exceeded our expectations. The booking system works flawlessly and our clients love how easy it is to use."
+      "feedback": "Our event site looks elegant and the booking system works seamlessly. Clients frequently compliment how easy it is to browse and schedule. Nawaz captured our vision beautifully."
     },
     {
       "id": 7,
@@ -55,7 +54,7 @@
       "name": "Amina Hassan",
       "profession": "Fashion Boutique Owner",
       "image": "https://ui-avatars.com/api/?name=Amina+Hassan&background=random",
-      "feedback": "The e-commerce store Nawaz created for my boutique is absolutely beautiful and so easy to manage. My customers can shop seamlessly from their phones, and I can add new products in minutes. The site has helped me reach customers across the entire region."
+      "feedback": "My boutique now has a polished, mobile-first online shop that attracts new customers daily. I can easily add new items and manage everything myself. Truly worth every penny."
     },
     {
       "id": 8,
@@ -63,7 +62,7 @@
       "name": "Thomas Anderson",
       "profession": "Marketing Agency Director",
       "image": "https://s3.amazonaws.com/media.mixrank.com/profilepic/1e097e24c183d6c225e7b6efa5c18aad",
-      "feedback": "We hired Nawaz to redesign our agency's website, and the results were outstanding. The new site is modern, loads lightning-fast, and perfectly represents our brand. Our bounce rate dropped significantly and client inquiries have doubled since the launch."
+      "feedback": "Our agency website redesign was handled with perfection. Nawaz’s attention to detail, performance optimization, and clear communication made the project effortless. Leads have nearly doubled since the relaunch."
     },
     {
       "id": 9,
@@ -71,7 +70,7 @@
       "name": "Sofia Andersson",
       "profession": "Interior Designer",
       "image": "https://m.media-amazon.com/images/I/719Qm92tOfL._UF350,350_QL80_.jpg",
-      "feedback": "Nawaz took my Figma designs and brought them to life perfectly. Every detail was implemented exactly as I envisioned, and the website works smoothly on all devices. His attention to detail and technical skills are truly impressive."
+      "feedback": "From design to final launch, everything was flawless. Nawaz translated my Figma mockups into a pixel-perfect, responsive website. My clients constantly praise how smooth it feels on every device."
     },
     {
       "id": 10,
@@ -79,7 +78,7 @@
       "name": "Michael Brown",
       "profession": "Tech Startup Founder",
       "image": "https://d3g9pb5nvr3u7.cloudfront.net/authors/58ed6029fc8ab61408d447b9/1066023097/256.jpg",
-      "feedback": "Working with Nawaz was refreshingly professional. He delivered our company website ahead of schedule, and it's been completely bug-free since launch. The site is fast, secure, and has helped us attract investors and customers alike. Highly recommend!"
+      "feedback": "The entire experience was exceptional. The site is fast, scalable, and secure — exactly what our investors wanted to see. Nawaz delivered early, with zero bugs post-launch. Professionalism at its best."
     },
     {
       "id": 11,
@@ -87,7 +86,7 @@
       "name": "Lucia Fernandez",
       "profession": "Non-Profit Organization Director",
       "image": "https://independentsector.org/wp-content/uploads/elementor/thumbs/Andrea-Risotto-quvz68p2et4j00ks56lw02belix79yejjhj13fa03k.jpg",
-      "feedback": "We needed a website that would help us reach more donors and volunteers. Nawaz created something truly special - it tells our story beautifully and makes it easy for people to get involved. We've seen a significant increase in both donations and volunteer sign-ups."
+      "feedback": "The website Nawaz created tells our story beautifully. It inspires visitors to get involved, and since launch, we’ve seen a big jump in donations and volunteer registrations."
     },
     {
       "id": 12,
@@ -95,7 +94,7 @@
       "name": "Isabella Costa",
       "profession": "Travel Blogger",
       "image": "https://ui-avatars.com/api/?name=Isabella+Costa&background=random",
-      "feedback": "As a blogger, I needed a website that was both beautiful and functional. Nawaz built me a blog that's easy to update, loads quickly even with lots of images, and looks amazing on mobile. My readership has grown so much since the redesign!"
+      "feedback": "I love how easy it is to manage my blog now! It loads fast, even with tons of photos, and looks amazing on mobile. Nawaz built something that truly reflects my travel brand."
     },
     {
       "id": 13,
@@ -103,7 +102,7 @@
       "name": "Ahmed Al-Rashid",
       "profession": "Real Estate Agent",
       "image": "https://ap.rdcpix.com/fb3970685585a2cada7e58baad187943a-e2936857258rd-w260_h260.webp",
-      "feedback": "My property listings needed a professional platform that would make them stand out. Nawaz delivered exactly that - a clean, modern website where potential buyers can easily browse properties on any device. My business has grown considerably since launching the site."
+      "feedback": "My property listings finally look professional. The site’s easy navigation and modern design help me close more deals. Nawaz understood the business side, not just the design side."
     },
     {
       "id": 14,
@@ -111,7 +110,7 @@
       "name": "Noor Fatima",
       "profession": "Online Education Provider",
       "image": "https://ui-avatars.com/api/?name=Noor+Fatima&background=random",
-      "feedback": "Our e-learning platform needed to be accessible and easy to use for students of all ages. Nawaz built a wonderful system where we can manage courses, students can access materials easily, and everything runs smoothly. Student satisfaction has increased dramatically."
+      "feedback": "Our online learning platform now runs smoother and looks much more professional. Students love how simple it is to use, and engagement has gone up dramatically."
     },
     {
       "id": 15,
@@ -119,7 +118,7 @@
       "name": "Robert Kim",
       "profession": "Medical Practice Manager",
       "image": "https://zzz.sfo3.cdn.digitaloceanspaces.com/y/Profile_HP_20231115_Standing_Square_256.png",
-      "feedback": "We needed a website that patients could use to book appointments and access information easily. Nawaz created a secure, user-friendly site that has made our practice more efficient. Patients love how simple it is to schedule appointments online now."
+      "feedback": "The new site allows patients to book appointments easily, and our staff saves hours each week. Nawaz delivered a secure, functional system that improved our efficiency immediately."
     },
     {
       "id": 16,
@@ -127,7 +126,7 @@
       "name": "Elena Petrova",
       "profession": "Art Gallery Owner",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHKp4Or4BrAMkcI1T-Mgb6XQmnbMpx1XP7Wg&s",
-      "feedback": "Showcasing art online requires special attention to detail, and Nawaz understood that perfectly. The website he created presents our collections beautifully while being incredibly easy to navigate. We've received countless compliments from visitors and artists alike."
+      "feedback": "Our art collection now shines online! Nawaz’s work brought elegance and usability together perfectly. Visitors constantly compliment the smooth browsing experience."
     },
     {
       "id": 17,
@@ -135,7 +134,7 @@
       "name": "Jean-Pierre Dubois",
       "profession": "Wine Shop Owner",
       "image": "https://ui-avatars.com/api/?name=Jean+Dubois&background=random",
-      "feedback": "Nawaz built an elegant e-commerce site for our wine shop that makes online ordering simple and enjoyable. The site works perfectly on mobile, which is important since many customers browse while commuting. Our online revenue has exceeded all expectations."
+      "feedback": "The e-commerce store Nawaz built makes ordering effortless. Customers love it, and our online sales have more than doubled. Great blend of design and functionality."
     },
     {
       "id": 18,
@@ -143,16 +142,15 @@
       "name": "Henrik Nielsen",
       "profession": "Craft Brewery Owner",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Q54SGCoHlJ848PTaEsd4--hWieQijZEmnQ&s",
-      "feedback": "Nawaz helped us launch our brewery's online presence from scratch. The website perfectly captures our brand's personality while making it easy for customers to find our locations and products. It's been instrumental in building our customer base."
+      "feedback": "From brand story to user experience, everything fits perfectly. The website helps customers easily find our beers and taprooms. Nawaz nailed the vibe of our brewery."
     },
-
     {
       "id": 19,
       "rating": 4,
       "name": "Carlos Mendoza",
       "profession": "Construction Company Owner",
       "image": "https://ui-avatars.com/api/?name=Carlos+Mendoza&background=random",
-      "feedback": "I was skeptical about needing a website for my construction business, but Nawaz showed me how it could help. Now we get project inquiries through the website regularly, and clients say it makes us look much more professional than our competitors."
+      "feedback": "Our construction business gets steady inquiries through the new website. Nawaz showed how an online presence can bring real growth — and he was right!"
     },
     {
       "id": 20,
@@ -160,7 +158,7 @@
       "name": "Yuki Tanaka",
       "profession": "Handmade Crafts Seller",
       "image": "https://cdn.neighbourly.co.nz/images/cache/message_image_thumbnail/message_images/60ac00eb6c5c25.10455278.jpeg?170410",
-      "feedback": "Nawaz created an online store for my handmade crafts that truly reflects the care I put into my products. The website is beautiful, the checkout process is smooth, and I can easily manage inventory. My international sales have grown beyond my expectations!"
+      "feedback": "My online shop is beautiful, simple, and easy to manage. Nawaz’s work helped my handmade brand reach customers internationally. Orders now come in daily!"
     },
     {
       "id": 21,
@@ -168,7 +166,7 @@
       "name": "Alexander Mueller",
       "profession": "Financial Advisor",
       "image": "https://i.insider.com/5f7b7a1b94fce90018f7b321?crop=1:1&width=256&format=jpeg&auto=webp",
-      "feedback": "Trust and professionalism are crucial in my industry, and my website needed to reflect that. Nawaz delivered a sophisticated, secure site that helps potential clients understand my services and feel confident reaching out. The quality of leads has improved significantly."
+      "feedback": "Professionalism and trust are vital in my field. Nawaz built a sleek, secure website that perfectly communicates credibility. It’s attracting higher-quality leads every week."
     },
     {
       "id": 22,
@@ -176,16 +174,15 @@
       "name": "Olivia Williams",
       "profession": "Wedding Planner",
       "image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/ca1a8dc1b3074d6c9a39b1a8f21b737c",
-      "feedback": "My business is all about creating beautiful experiences, and my website needed to reflect that. Nawaz created something absolutely stunning that showcases my work perfectly. Couples constantly tell me that seeing my website convinced them to hire me!"
+      "feedback": "My new website beautifully showcases my wedding work and has become my best marketing tool. Couples constantly tell me it was what made them choose me!"
     },
-
     {
       "id": 23,
       "rating": 5,
       "name": "Aisha Abdullah",
       "profession": "Beauty Salon Owner",
       "image": "https://ui-avatars.com/api/?name=Aisha+Abdullah&background=random",
-      "feedback": "I needed a website where clients could easily book appointments and see our services. Nawaz created exactly that, plus so much more. The booking system has reduced no-shows and made managing appointments so much easier. My clients love using it!"
+      "feedback": "Clients love booking online now! The new system reduced no-shows and keeps everything organized. Nawaz made everything easy and efficient."
     },
     {
       "id": 24,
@@ -193,7 +190,7 @@
       "name": "Benjamin Taylor",
       "profession": "Software Company CEO",
       "image": "https://i.insider.com/61254f24493203001845b45a?crop=1:1&width=256&format=jpeg&auto=webp",
-      "feedback": "As a fellow developer, I'm quite particular about code quality. Nawaz's work is exceptional - clean code, modern practices, and excellent performance optimization. Our company website is fast, maintainable, and exactly what we needed. True professional!"
+      "feedback": "Clean code, strong performance, and elegant design — everything you want from a top-tier developer. Nawaz delivered excellence on every front."
     },
     {
       "id": 25,
@@ -201,33 +198,33 @@
       "name": "Maria Santos",
       "profession": "Yoga Studio Owner",
       "image": "https://ui-avatars.com/api/?name=Maria+Santos&background=random",
-      "feedback": "The website Nawaz created for my yoga studio has a peaceful, calming feel that perfectly matches our brand. Students can easily view schedules, book classes, and even stream recorded sessions. It's made running my studio so much more organized and efficient."
+      "feedback": "Our yoga studio’s website now feels peaceful, intuitive, and easy to use. Students love the online class booking and streaming features. It truly elevated our brand."
     }
   ],
   "defaultFeedbacks": [
-    "Working with Nawaz was an absolute pleasure from start to finish. He listened carefully to my ideas and transformed them into a website that exceeded every expectation. The attention to detail and commitment to quality really shine through in the final product.",
-    "The transformation of my outdated website into a modern, mobile-friendly site has been incredible. My visitors are staying longer, and my bounce rate has dropped significantly. Nawaz really knows how to create websites that engage users effectively.",
-    "What I appreciated most was Nawaz's patience in explaining technical concepts in simple terms. As someone with no web development background, I felt informed and confident throughout the entire process. The result is a website I'm truly proud to share.",
-    "The website Nawaz created for my business has become my most valuable marketing tool. It's fast, looks professional on every device, and has helped me reach customers I never would have found otherwise. Best investment I've made in my business this year.",
-    "I needed someone who could take my design mockups and bring them to life, and Nawaz did exactly that. The pixel-perfect implementation and smooth functionality show his expertise. Working with him was collaborative and enjoyable throughout.",
-    "Nawaz doesn't just build websites - he builds solutions that help businesses grow. His understanding of both the technical and business sides of web development sets him apart. The site has already paid for itself through new client acquisitions.",
-    "Nawaz managed to capture the essence of my brand perfectly in the website design. Every element feels intentional and purposeful. My customers have been complimenting the new site constantly, and I've noticed a real increase in online engagement.",
-    "I came to Nawaz with a tight deadline and a complex project. Not only did he deliver on time, but the quality was outstanding. The website has been running perfectly since launch without a single issue. Truly professional work!",
-    "I stumbled upon Nawaz's portfolio while searching for a developer, and I'm so glad I did. His work speaks for itself, but what really stood out was his genuine interest in helping my business succeed. He's not just a developer - he's a true partner.",
-    "As someone who had a bad experience with another developer before, I was nervous about trying again. Nawaz restored my faith completely. He was communicative, delivered exactly what he promised, and went above and beyond to ensure I was satisfied.",
-    "The website has opened up new opportunities for my business that I hadn't even considered before. Customers from different countries are finding me online and reaching out. Nawaz's work has literally expanded my business's reach across borders.",
-    "I was impressed by how quickly Nawaz understood exactly what my business needed. The website he built isn't just beautiful - it actually helps me get more customers. I've already recommended him to three other business owners in my network.",
-    "Nawaz's ability to deliver high-quality work while maintaining clear communication throughout the project was exceptional. I always knew what was happening and when to expect updates. The final website exceeded my expectations in every way possible.",
-    "The e-commerce store Nawaz built for me has completely streamlined my business operations. What used to take hours of manual work is now automated and efficient. My customers love the shopping experience, and I love how easy it is to manage everything.",
-    "The content management system Nawaz set up for me is incredibly intuitive. I can update my website content, add blog posts, and manage everything myself without any technical knowledge. This independence has been empowering for my business.",
-    "The website redesign Nawaz completed for our company has generated so many positive comments from clients and partners. It's professional, fast, and represents our brand perfectly. We've seen a measurable improvement in lead generation since the launch.",
-    "I appreciate how Nawaz took the time to understand my target audience before starting the design. The result is a website that resonates perfectly with my customers and makes it easy for them to find what they need. Conversion rates have improved significantly.",
-    "What sets Nawaz apart is his proactive approach to problem-solving. He anticipated potential issues and addressed them before they became problems. The website launch was smooth, and everything has been working flawlessly ever since.",
-    "As a small business owner with a limited budget, I was worried about getting quality work. Nawaz proved that you don't have to sacrifice quality for affordability. The website he delivered rivals those of much larger competitors in my industry.",
-    "Nawaz's portfolio initially caught my attention, but it was his approach to understanding my business goals that convinced me to hire him. He delivered a website that not only looks great but actively contributes to achieving those goals.",
-    "I've received more compliments on my new website than anything else in my business recently. Nawaz created something that truly represents the quality of work I deliver to my own clients. It's been an incredible asset for building credibility and trust.",
-    "The security and performance of my website were top priorities, and Nawaz delivered on both fronts. The site loads incredibly fast and I have peace of mind knowing it's properly secured. These technical aspects may not be visible, but they make a huge difference.",
-    "Nawaz made the entire process feel easy and stress-free. From our first conversation to the final launch, everything was handled professionally and efficiently. I never felt uncertain about what was happening or when things would be completed.",
-    "I'm amazed by how Nawaz balanced aesthetics with functionality. The website is beautiful to look at but also incredibly practical and easy to use. This combination has made it effective at converting visitors into customers, which is exactly what I needed."
+    "Working with Nawaz was a smooth and enjoyable experience. He turned my ideas into a modern, high-performing website that reflects my brand perfectly.",
+    "The new site not only looks amazing but has brought in more clients. Nawaz clearly understands how to design for conversions and customer trust.",
+    "I loved how Nawaz explained every technical step in simple terms. Even with zero experience, I always felt confident about what was happening.",
+    "The website became my most powerful marketing tool. It’s fast, beautifully designed, and my clients can easily find everything they need.",
+    "Pixel-perfect design, flawless functionality, and strong attention to performance — that’s what Nawaz delivers. Truly world-class work!",
+    "I’ve already noticed a jump in client inquiries since the launch. Nawaz knows exactly how to create websites that attract customers and build credibility.",
+    "The site reflects my business identity so well that customers immediately connect with it. Nawaz managed to capture the essence of my brand effortlessly.",
+    "On-time delivery, great communication, and exceptional results. Nawaz made a complex project feel easy and stress-free from start to finish.",
+    "I discovered Nawaz through his portfolio, and I’m so glad I did. His dedication to helping my business succeed went beyond just development.",
+    "After a bad experience with another developer, I was hesitant — but Nawaz completely restored my trust. He went above and beyond at every step.",
+    "My website now attracts clients from countries I never reached before. Nawaz’s work helped me expand globally with confidence.",
+    "The site Nawaz built not only looks good but actually brings me customers. I’ve recommended him to several other business owners already.",
+    "Nawaz kept me informed throughout the process and delivered a site far better than I imagined. He truly takes pride in his work.",
+    "The online store Nawaz developed automated most of my operations. It’s easy to manage, performs fast, and my customers love the smooth checkout process.",
+    "The content management tools he added make updating my website simple and empowering. I can now post updates without any help!",
+    "Our company site redesign led to a 60% rise in leads within weeks. Nawaz knows how to merge design and strategy for measurable growth.",
+    "He really took time to understand my customers before designing. The new site converts more visitors into clients than ever before.",
+    "Nawaz anticipated potential issues early and solved them proactively. The launch went perfectly — everything worked flawlessly from day one.",
+    "I didn’t think I could afford a high-end website, but Nawaz proved me wrong. The quality rivals that of big agencies at a fraction of the cost.",
+    "What impressed me most was how Nawaz tied design to business goals. The website now drives real, trackable results for my company.",
+    "I’ve received so many compliments on my new website. It reflects my work quality and helps build trust with new clients instantly.",
+    "The website is lightning-fast and secure. Nawaz clearly knows the importance of performance and long-term stability.",
+    "From start to finish, Nawaz made the entire process easy and transparent. I always knew what to expect and when to expect it.",
+    "A perfect balance of design, usability, and conversion focus — the website Nawaz created is everything I hoped for and more."
   ]
 }
