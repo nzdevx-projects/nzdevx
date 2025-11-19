@@ -120,7 +120,7 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://nzdevx.com',
     siteName: 'Professional Web Developer',
-    title: 'Professional Web Developer (Portfolio & Contact)',
+    title: 'Professional Web Developer – View My Work and Contact Me Easily',
     description:
       'Modern, fast, and business-focused website development for global clients. Expert Web Developer with 4+ years of experience delivering secure, responsive, and conversion-optimized websites.',
     images: [
