@@ -138,7 +138,7 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@nawaz_dev',
     creator: '@nawaz_dev',
-    title: 'Professional Web Developer for Business Websites',
+    title: 'Professional Web Developer – View My Work and Contact Me Easily',
     description:
       'Professional Web Developer crafting modern, fast, and conversion-focused websites for businesses worldwide.',
     images: ['/logo.png'],
