@@ -5,8 +5,10 @@ import { PageBgEffects } from '@/components/ui/BgEffects.jsx';
 
 export const metadata = {
   title: 'Portfolio Projects - Web Development Work & Case Studies',
+
   description:
     'Explore my portfolio of professional web development projects. See real examples of business websites, e-commerce stores, custom web applications, and responsive designs built with React, Next.js, and modern technologies. Each project showcases quality work that helps businesses grow.',
+
   keywords: [
     'React projects',
     'website examples',
@@ -21,17 +23,22 @@ export const metadata = {
     'responsive website examples',
     'modern web design portfolio',
   ],
+
   alternates: {
     canonical: '/projects',
   },
+
   openGraph: {
     title: 'Web Development Portfolio - Professional Projects by Nawaz | nzdevx.com',
+
     description:
       'Browse through professional web development projects including business websites, e-commerce stores, and custom applications. See real examples of quality work built with modern technologies.',
+
     url: 'https://nzdevx.com/projects',
+
     images: [
       {
-        url: '/og-projects.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Web Development Portfolio Projects',

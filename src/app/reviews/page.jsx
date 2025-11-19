@@ -7,9 +7,11 @@ import { PageBgEffects } from '@/components/ui/BgEffects.jsx';
 import ShareExperienceButton from '@/components/reviews/SmallUI.jsx';
 
 export const metadata = {
-  title: 'Client Reviews & Testimonials - Real Feedback from Happy Clients',
+  title: 'Client Reviews & Testimonials – Feedback for Nawaz',
+
   description:
     'Read honest reviews and testimonials from satisfied clients. See what business owners say about working with me on their websites. Real feedback about web development services, project results, communication, and customer support from clients worldwide.',
+
   keywords: [
     'web developer reviews',
     'client testimonials',
@@ -23,9 +25,11 @@ export const metadata = {
     'trusted web developer',
     'reliable developer reviews',
   ],
+
   alternates: {
     canonical: '/reviews',
   },
+
   openGraph: {
     title: 'Client Reviews - What Customers Say About My Web Development Services',
     description:
@@ -33,7 +37,7 @@ export const metadata = {
     url: 'https://nzdevx.com/reviews',
     images: [
       {
-        url: '/og-reviews.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Client Reviews and Testimonials',

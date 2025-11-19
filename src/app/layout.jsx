@@ -21,11 +21,13 @@ const nunito = Nunito({
 
 export const metadata = {
   title: {
-    default: 'Nawaz - Full Stack Web Developer | React, Next.js, Node.js Expert',
-    template: '%s | Nawaz - Full Stack Developer',
+    default: 'Professional Web Developer for Modern Business Websites',
+    template: '%s | Professional Web Developer',
   },
+
   description:
-    'Professional Full Stack Web Developer with 4+ years of experience building fast, secure, and responsive websites. Expert in React, Next.js, Node.js, MongoDB, and modern web technologies. I help businesses grow online with custom web solutions.',
+    'Hire a skilled Professional Web Developer with 4+ years of experience creating modern, high-performing, and conversion-focused websites for global businesses. I build fast, secure, mobile-friendly websites that help companies stand out and grow online.',
+
   keywords: [
     // Primary Keywords
     'Web Developer',
@@ -102,6 +104,7 @@ export const metadata = {
     'Cross-Browser Compatible',
     'Accessibility Compliant Website',
   ],
+
   authors: [{ name: 'Nawaz', url: 'https://nzdevx.com' }],
   creator: 'Nawaz',
   publisher: 'Nawaz',
@@ -116,17 +119,17 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://nzdevx.com',
-    siteName: 'Nawaz - Full Stack Developer',
-    title: 'Nawaz - Professional Full Stack Web Developer',
+    siteName: 'Professional Web Developer',
+    title: 'Professional Web Developer for Business Websites',
     description:
-      'Expert Full Stack Developer with 4+ years of experience. I build fast, secure, and responsive websites that help businesses grow. Specializing in React, Next.js, Node.js, and modern web development.',
+      'Modern, fast, and business-focused website development for global clients. Expert Web Developer with 4+ years of experience delivering secure, responsive, and conversion-optimized websites.',
     images: [
       {
-        url: 'https://nzdevx.com/og-image.jpg',
+        url: 'https://nzdevx.com/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Nawaz - Full Stack Web Developer Portfolio',
-        type: 'image/jpeg',
+        alt: 'Professional Web Developer Portfolio',
+        type: 'image/png',
       },
     ],
   },
@@ -135,10 +138,10 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@nawaz_dev',
     creator: '@nawaz_dev',
-    title: 'Nawaz - Full Stack Web Developer',
+    title: 'Professional Web Developer for Business Websites',
     description:
-      'Professional web developer building fast, secure, and responsive websites. 4+ years experience in React, Next.js, Node.js, and modern web technologies.',
-    images: ['/og-image.jpg'],
+      'Professional Web Developer crafting modern, fast, and conversion-focused websites for businesses worldwide.',
+    images: ['/logo.png'],
   },
 
   robots: {
@@ -151,11 +154,6 @@ export const metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-
-  verification: {
-    // Add your Google Search Console verification code
-    google: 'your-google-verification-code',
   },
 };
 

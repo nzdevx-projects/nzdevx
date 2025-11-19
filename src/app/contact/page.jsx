@@ -5,8 +5,10 @@ import { PageBgEffects } from '@/components/ui/BgEffects.jsx';
 
 export const metadata = {
   title: 'Contact - Get Free Quote for Your Website Project',
+
   description:
     "Get in touch to discuss your website project. Free consultation and quote available. I respond within 24 hours. Whether you need a new website, online store, or website redesign, let's talk about how I can help your business grow online.",
+
   keywords: [
     'contact web developer',
     'hire web developer',
@@ -19,9 +21,11 @@ export const metadata = {
     'hire professional developer',
     'get in touch developer',
   ],
+
   alternates: {
     canonical: '/contact',
   },
+
   openGraph: {
     title: 'Contact Nawaz - Get Free Quote for Your Website',
     description:
@@ -29,7 +33,7 @@ export const metadata = {
     url: 'https://nzdevx.com/contact',
     images: [
       {
-        url: '/og-contact.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Contact - Get Your Website Quote',

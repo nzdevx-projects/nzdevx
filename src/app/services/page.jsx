@@ -4,9 +4,11 @@ import MainPageUI from '@/components/services/MainPage';
 import { PageBgEffects } from '@/components/ui/BgEffects.jsx';
 
 export const metadata = {
-  title: 'Web Development Services - Professional Website Solutions & Pricing',
+  title: 'Web Services - Professional Website Solutions & FAQ',
+
   description:
     'Professional web development services for your business. I offer website development, e-commerce stores, CMS development, website redesign, design to website conversion, and ongoing maintenance. Fast, secure, and mobile-friendly solutions with clear pricing and guaranteed results.',
+
   keywords: [
     // Service-specific keywords
     'web development services',
@@ -35,9 +37,11 @@ export const metadata = {
     'web development pricing',
     'custom website price',
   ],
+
   alternates: {
     canonical: '/services',
   },
+
   openGraph: {
     title: 'Professional Web Development Services - Custom Solutions for Your Business',
     description:
@@ -45,7 +49,7 @@ export const metadata = {
     url: 'https://nzdevx.com/services',
     images: [
       {
-        url: '/og-services.jpg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Professional Web Development Services',
